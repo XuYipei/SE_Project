@@ -1,0 +1,54 @@
+{
+  "id": "524",
+  "title": "程序解密",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e今天晚上有程序设计课的DDL，但是蒜斜的程设作业还一个空格都没有打过 —— 因为他的魔塔还没有通关……于是蒜斜打算向他的好朋友镁团求助。\u003c/p\u003e\u003cp\u003e镁团很愿意帮忙，所以他将自己的两个程序 \u003ccode\u003esmall.cpp\u003c/code\u003e 和 \u003ccode\u003elarge.cpp\u003c/code\u003e 用以下方式加密后发给了蒜斜：\u003c/p\u003e\u003col\u003e\u003cli\u003e读入原程序中的所有字符，包括空格与换行。这样就得到了一个字符串 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003es\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003es\u003c/script\u003e。\u003c/li\u003e\n\u003cli\u003e把 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-4\"\u003es\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003es\u003c/script\u003e 中的每一个字符都替换成它的 ASCII 码，这样就得到了一个数字序列 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-6\"\u003eA\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003eA\u003c/script\u003e。\u003c/li\u003e\n\u003cli\u003e随机生成一个 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-8\"\u003e0\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-9\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e∼\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-10\"\u003e255\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003e0 \\sim 255\u003c/script\u003e 的排列 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-11\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-12\"\u003ep\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003ep\u003c/script\u003e，并把所有的 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-13\"\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-14\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-15\" style=\"margin-right: 0.05em;\"\u003eA\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-16\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003eA_i\u003c/script\u003e 替换成 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-17\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-18\"\u003ep\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-19\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e[\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-20\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-21\" style=\"margin-right: 0.05em;\"\u003eA\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-22\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-23\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e]\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003ep[A_i]\u003c/script\u003e，这样就得到了数字数列 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-24\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-25\"\u003eB\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003eB\u003c/script\u003e。\u003c/li\u003e\n\u003cli\u003e把 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-26\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-27\"\u003eB\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003eB\u003c/script\u003e 输出到密文文件中。\u003c/li\u003e\n\u003c/ol\u003e\u003cp\u003e现在给出这两个程序的加密结果 \u003ccode\u003esmall.encode\u003c/code\u003e, \u003ccode\u003elarge.encode\u003c/code\u003e。你需要帮助蒜斜还原出这两个程序原本的功能，以帮助他完成作业。\u003c/p\u003e\u003cp\u003e为了帮助你解密，蒜斜还额外提供了作业里的样例输入输出 \u003ccode\u003esmall.in\u003c/code\u003e, \u003ccode\u003esmall.out\u003c/code\u003e, \u003ccode\u003elarge.in\u003c/code\u003e, \u003ccode\u003elarge.out\u003c/code\u003e：\u003c/p\u003e\u003col\u003e\u003cli\u003e已知 \u003ccode\u003esmall.cpp\u003c/code\u003e 在输入 \u003ccode\u003esmall.in\u003c/code\u003e 的时候会输出 \u003ccode\u003esmall.out\u003c/code\u003e。\u003c/li\u003e\n\u003cli\u003e已知 \u003ccode\u003elarge.cpp\u003c/code\u003e 在输入 \u003ccode\u003elarge.in\u003c/code\u003e 的时候会输出 \u003ccode\u003elarge.out\u003c/code\u003e。\u003c/li\u003e\n\u003c/ol\u003e",
+      "misc": ""
+    },
+    {
+      "title": "提交方式",
+      "content": "\u003cp\u003e你提交的程序需要把 \u003ccode\u003esmall.cpp\u003c/code\u003e 与 \u003ccode\u003elarge.cpp\u003c/code\u003e 合并到一起：输入的第一行包含一个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-28\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-29\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-30\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e∈\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-31\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e{\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-32\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-33\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-34\"\u003e2\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-35\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e}\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003et \\in \\{1,2\\}\u003c/script\u003e，当 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-36\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-37\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-38\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-39\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003et=1\u003c/script\u003e 的时候，你的程序需要执行 \u003ccode\u003esmall.cpp\u003c/code\u003e 的功能；当 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-40\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-41\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-42\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-43\"\u003e2\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003et=2\u003c/script\u003e 的时候，你的程序需要执行 \u003ccode\u003elarge.cpp\u003c/code\u003e 的功能。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "样例输入一",
+      "content": "\u003ch4\u003einput\u003c/h4\u003e\u003cpre\u003e1\n10\n1 10 7 6 2 8 9 3 5 4\n\n\u003c/pre\u003e\u003ch4\u003eoutput\u003c/h4\u003e\u003cpre\u003e221\n\n\u003c/pre\u003e",
+      "misc": ""
+    },
+    {
+      "title": "样例输入二",
+      "content": "\u003cp\u003e见样例数据下载。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cp\u003e\u003cstrong\u003eSmall Task\u003c/strong\u003e: \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-44\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-45\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-46\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-47\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-13\"\u003et = 1\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eLarge Task\u003c/strong\u003e: \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-48\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-49\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-50\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-51\"\u003e2\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-14\"\u003et = 2\u003c/script\u003e。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=524\"\u003e加密后的程序以及运行样例下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [],
+  "tags": [
+    "UOJ",
+    "美团杯2020"
+  ],
+  "rules": {
+    "runtime": "1000000000",
+    "memory": "536870912",
+    "stack": "536870912",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:54:51.701718625+08:00",
+    "updated": "2021-04-09T21:54:51.701718625+08:00",
+    "checked": "2021-04-09T21:54:51.701718625+08:00"
+  },
+  "misc": ""
+}

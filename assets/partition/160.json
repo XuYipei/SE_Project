@@ -1,0 +1,57 @@
+{
+  "id": "160",
+  "title": "斗地主",
+  "type": "answer_submission",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e这是一道\u003cstrong\u003e提交答案题\u003c/strong\u003e。\u003c/p\u003e\u003cp\u003e牛牛最近迷上了一种叫斗地主的扑克游戏。斗地主是一种使用A到K加上大小王的来进行的扑克牌游戏，其中，A到K（分别用A、2、3、4、5、6、7、8、9、T、J、Q、K表示）各四张，大小王（用w表示小王，W表示大王）各一张。\u003c/p\u003e\u003cp\u003e牌的大小关系如下：3 \u0026lt; 4 \u0026lt; 5 \u0026lt; 6 \u0026lt; 7 \u0026lt; 8 \u0026lt; 9 \u0026lt; T \u0026lt; J \u0026lt; Q \u0026lt; K \u0026lt; A \u0026lt; 2 \u0026lt; w\u0026lt; W\u003c/p\u003e\u003cp\u003e牛牛在noip中知道了每副手牌最少需要多少次才能出完。然而，他又被小伙伴们嘲笑了一番，因为能否赢得一局游戏似乎跟手上的牌多少次能出完没有什么关系，而且他居然不知道飞机可以带翅膀。现在牛牛又在跟小伙伴打牌，\u003c/p\u003e\u003cp\u003e牛牛或小伙伴每次可以按照规定的牌型进行出牌，并在对手打光手牌之前打光自己的手牌以取得游戏的胜利，同时，胜利的一方可以得到 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003ex\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003ex\u003c/script\u003e 的奖励，失败的一方受到 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-4\"\u003ex\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003ex\u003c/script\u003e 的惩罚，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-6\"\u003ex\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003ex\u003c/script\u003e 为胜利方打光手牌时失败方剩余牌的数量。\u003c/p\u003e\u003cp\u003e牌型规定如下：\u003c/p\u003e\u003cdiv class=\"table-responsive\"\u003e\n  \u003ctable class=\"table table-bordered table-text-center table-vertical-middle\"\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003e牌型\u003c/th\u003e\u003cth\u003e牌型说明\u003c/th\u003e\u003cth\u003e牌型举例\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e火箭\u003c/td\u003e\u003ctd\u003e即双王（大王+小王）\u003c/td\u003e\u003ctd\u003ewW\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e炸弹\u003c/td\u003e\u003ctd\u003e四张同点牌。如四个A。\u003c/td\u003e\u003ctd\u003eAAAA\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e单个牌\u003c/td\u003e\u003ctd\u003e单张牌，比如3。\u003c/td\u003e\u003ctd\u003e3\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e对子牌\u003c/td\u003e\u003ctd\u003e两张点数相同的牌。\u003c/td\u003e\u003ctd\u003e44\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e三张牌\u003c/td\u003e\u003ctd\u003e三张点数相同的牌。\u003c/td\u003e\u003ctd\u003e555\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e三带一\u003c/td\u003e\u003ctd\u003e三张同点牌 + 一张单牌。例如：三张3+单4\u003c/td\u003e\u003ctd\u003e3334\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e三带二\u003c/td\u003e\u003ctd\u003e三张同点牌 + 一对牌。例如：三张3+对4\u003c/td\u003e\u003ctd\u003e33344\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e单顺子\u003c/td\u003e\u003ctd\u003e五张或更多连续的单牌。例如：单3+单4+单5+单6+单7。不能包括2点和王。\u003c/td\u003e\u003ctd\u003e34567\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e双顺子\u003c/td\u003e\u003ctd\u003e三对或更多连续的对子牌。例如：对3+对4+对5。不能包括2点和双王。\u003c/td\u003e\u003ctd\u003e334455\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e三顺子\u003c/td\u003e\u003ctd\u003e二个或更多连续的三张牌。例如：三张3+三张4+三张5。不包括2点和双王。\u003c/td\u003e\u003ctd\u003e333444555\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e四带二\u003c/td\u003e\u003ctd\u003e四张同点牌+任意两张单牌，例如：四张5+单3+单8\u003c/td\u003e\u003ctd\u003e555538\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e四带两对\u003c/td\u003e\u003ctd\u003e四张同点牌+任意两个对子牌，例如：四张4+对5+对7\u003c/td\u003e\u003ctd\u003e44445577\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e飞机带翅膀\u003c/td\u003e\u003ctd\u003e三顺子+同数量的单牌。\u003c/td\u003e\u003ctd\u003e3334445559QK\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e飞机带双翅膀\u003c/td\u003e\u003ctd\u003e三顺子+同数量的对牌。\u003c/td\u003e\u003ctd\u003e7778889993366QQ\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e\u003cp\u003e比较大小的规则如下：\u003c/p\u003e\u003col\u003e\u003cli\u003e一般地，只在同种牌型同样张数的情况下，才可以比较大小。\u003c/li\u003e\n\u003cli\u003e对单个牌，对子牌，三张牌，单顺子，双顺子，三顺子，比较其中最大的一张牌的点数。\u003c/li\u003e\n\u003cli\u003e对于三带一、三带二，比较其中三张同点牌的大小。\u003c/li\u003e\n\u003cli\u003e对于四带二，四带两对，比较其中四张同点牌的大小。\u003c/li\u003e\n\u003cli\u003e对于飞机带翅膀和飞机带双翅膀，比较其中三顺子的大小。\u003c/li\u003e\n\u003cli\u003e特殊地，火箭大于任何牌。\u003c/li\u003e\n\u003cli\u003e特殊地，炸弹大于除了火箭和点数超过自己点数的其他炸弹之外的任何牌。\u003c/li\u003e\n\u003c/ol\u003e\u003cp\u003e一开始由牛牛先出牌，可以打出任意符合如上规则的牌。\u003c/p\u003e\u003cp\u003e当一方打出牌后，对方可以有以下两种选择：1、出一手比对方大的牌。2、放弃出牌。\u003c/p\u003e\u003cp\u003e当一方放弃出牌时，对方继续出牌，打出任意一种牌型的牌。\u003c/p\u003e\u003cp\u003e当一方打出手上最后的牌时，立即停止上述一切操作，游戏立即结束，并计算奖惩\u003c/p\u003e\u003cp\u003e牛牛和小伙伴都通过某种特殊方法知道了对方手上的所有牌，并且他们都知道对方知道自己的牌。\u003c/p\u003e\u003cp\u003e他们都希望自己能获得尽量多的奖励及受到尽量少的惩罚。\u003c/p\u003e\u003cp\u003e由于牛牛的小伙伴非常地机智，不会出现任何失误，请你帮牛牛算一算，对于当前这一副牌，他能否获得胜利，如果能，求出最大能获得多少奖励，如果不能，求出最少需要受到多少惩罚。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e每个测试点包含若干组数据，以 \u003ccode\u003e0 0\u003c/code\u003e 结尾。\u003c/p\u003e\u003cp\u003e每组数据第一行包含两个正整数，分别表示牛牛手上牌的数量和小伙伴手上牌的数量。\u003c/p\u003e\u003cp\u003e每组数据的第二行包含一个字符串，每个字符表示牛牛手上的牌的点数。\u003c/p\u003e\u003cp\u003e每组数据的第三行包含一个字符串，每个字符表示小伙伴手上的牌点数。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e对于每组数据，如果牛牛能获胜，输出一个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-8\"\u003ex\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003ex\u003c/script\u003e，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-9\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-10\"\u003ex\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003ex\u003c/script\u003e 表示他最多能获得多少奖励，如果牛牛不能获胜，输出一个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-11\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-12\" style=\"margin-left: 0em; margin-right: 0.111em;\"\u003e−\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-13\"\u003ex\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003e-x\u003c/script\u003e，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-14\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-15\"\u003ex\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003ex\u003c/script\u003e 表示他最少要受到多少惩罚。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cp\u003e保证给出的双方的牌是合法的。\n本题按照正确率给分，对于一个测试点，如果你的正确率为p，那么得分为\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-16\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-17\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e⌊\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-18\"\u003e20\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-19\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-20\" style=\"margin-right: 0.05em;\"\u003ep\u003c/span\u003e\u003cspan class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-21\" style=\"vertical-align: 0.5em;\"\u003e3\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-22\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e⌋\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003e\\lfloor 20p^3 \\rfloor\u003c/script\u003e\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e注意，在比赛时本题的测评方式为直接判0分。\u003c/strong\u003e\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=160\"\u003e输入数据及样例下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "",
+      "output": "",
+      "explanation": "",
+      "misc": "\u003cp\u003e见 \u003ccode\u003esample.in\u003c/code\u003e 和 \u003ccode\u003esample.out\u003c/code\u003e。\u003c/p\u003e"
+    }
+  ],
+  "tags": [
+    "UOJ",
+    "清华集训2015"
+  ],
+  "rules": {
+    "runtime": "0",
+    "memory": "0",
+    "stack": "0",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:33:19.929018185+08:00",
+    "updated": "2021-04-09T21:33:19.929018185+08:00",
+    "checked": "2021-04-09T21:33:19.929018185+08:00"
+  },
+  "misc": ""
+}

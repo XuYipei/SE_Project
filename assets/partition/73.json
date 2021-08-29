@@ -1,0 +1,54 @@
+{
+  "id": "73",
+  "title": "未来程序",
+  "type": "answer_submission",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e在 2047 年，第 64 届全国青少年信息学奥林匹克冬令营前夕，B君找到了 2015 年，第 32 届冬令营的题目来练习。\u003c/p\u003e\u003cp\u003e他打开了第三题 “未来程序” 这道题目：\u003c/p\u003e\u003cul class=\"list-group\"\u003e\u003cli class=\"list-group-item\"\u003e\n        \u003cp\u003e本题是一道提交答案题，一共 10 个测试点。\u003c/p\u003e\n        \u003cp\u003e对于每个测试点，你会得到一段程序的源代码和这段程序的输入。你要运行这个程序，并保存这个程序的输出。\u003c/p\u003e\n        \u003cp\u003e遗憾的是这些程序都效率极其地下，无法在比赛的 5 个小时内得到输出。\u003c/p\u003e\n    \u003c/li\u003e\n\u003c/ul\u003e\u003cp\u003eB君想了一下，决定用 2047 年的计算机来试着运行这个题目，他找到了 2015 年的编译器，并很快得到了结果……\u003c/p\u003e\u003cp\u003e这时B君从梦中惊醒，发现自己居然在第 32 届冬令营赛场上。之前的一切只是南柯一梦，而自己正需要解决“未来程序”这道题目。\u003c/p\u003e\u003cp\u003e然而B君已经记不清梦中的程序运行的结果了，他试图再次运行这些程序。但是他发现计算机性能比梦里的差多了，程序确实都无法在 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-2\"\u003e5\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-1-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003e5\u003c/script\u003e 小时内得到结果。\u003c/p\u003e\u003cp\u003e他需要你的帮助，来得到那些梦中的结果。\u003c/p\u003e\u003cp\u003e本题是一道提交答案题，一共有 10 个测试点。\u003c/p\u003e\u003cp\u003e对于每个测试点，你会得到一段程序的源代码和这段程序的输入。你要运行这个程序，并保存这个程序的输出。\u003c/p\u003e\u003cp\u003e遗憾的是这些程序效率都极其低下，无法在比赛的 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-4\"\u003e5\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-2-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003e5\u003c/script\u003e 小时内得到输出。\u003c/p\u003e\u003cp\u003e你需要帮助B君得到这些程序的输出。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e本题一共有 10 个测试点，编号为 1～10。以下用 “*” 表示测试点编号。\u003c/p\u003e\u003cp\u003e对于每个测试点有 4 个文件，分别是 program*.cpp 文件，program*.c 文件，program*.pas 文件，program*.in 文件。\u003c/p\u003e\u003cp\u003e你需要用自己的方法，得到以 program*.in 作为输入，编译运行 program*.{cpp, c, pas} 的输出。\u003c/p\u003e\u003cp\u003e你只需要在 3 种语言的代码中选择 1 种来解这道题目。这 3 种语言的代码在语意上是类似的，运行结果是相同的。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e对于给出的 10 个测试点，你需要将程序的输出分别保存在 program*.out 中。\u003c/p\u003e\u003cp\u003e特别地，我们保证每个测试点一定会输出恰好 10 行。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "评分方法",
+      "content": "\u003cp\u003e每个测试点单独评分。\u003c/p\u003e\u003cp\u003e如果你的一个输出文件超过了 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-6\"\u003e4\u003c/span\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-mtext MJXp-mono\" id=\"MJXp-Span-8\"\u003eKB\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-3-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003e4\\texttt{KB}\u003c/script\u003e，或某一行超过了 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-9\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-10\"\u003e400\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-4-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003e400\u003c/script\u003e 个字符，该测试点得 0 分。\u003c/p\u003e\u003cp\u003e否则对于每行单独评分，如果该行与标准答案相同，可以得 1 分。\u003c/p\u003e\u003cp\u003e如果你的输出不足 10 行，我们会在你的输出末尾添加空行补齐 10 行。\u003c/p\u003e\u003cp\u003e如果你的输出超过 10 行，我们会取出你的前 10 行作为输出。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "样例",
+      "content": "\u003cp\u003e请下载输入数据。样例输入见 example.{in,cpp,c,pas}，样例输出见 example.ans。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=73\"\u003e输入数据下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [],
+  "tags": [
+    "UOJ",
+    "WC2015"
+  ],
+  "rules": {
+    "runtime": "0",
+    "memory": "0",
+    "stack": "0",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:30:48.095277794+08:00",
+    "updated": "2021-04-09T21:30:48.095277794+08:00",
+    "checked": "2021-04-09T21:30:48.095277794+08:00"
+  },
+  "misc": ""
+}

@@ -1,0 +1,59 @@
+{
+  "id": "422",
+  "title": "小Z的礼物",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e小Z有一个神奇的自动售货机，里面有 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-3\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e×\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-4\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003en \\times m\u003c/script\u003e 种物品，分别放在 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-6\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003en\u003c/script\u003e 行 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-8\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003em\u003c/script\u003e 列个格子中。每当小Z向自动售货机中投入一枚硬币，他就能获得一对相邻格子中的物品（已经获得的物品可能再次获得），获得每一对相邻格子中的物品的概率是相等的。在这 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-9\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-10\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-11\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e×\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-12\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003en \\times m\u003c/script\u003e 种物品中，有一些物品是小Z喜欢的（小Z喜欢的用 * [星号] 表示，其他的用 .[英文句号] 表示），他想把这些物品包装成一份礼物。小Z想知道，期望投入多少枚硬币后，就可以获得这些他喜欢的物品。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e第一行两个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-13\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-14\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003en\u003c/script\u003e 和 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-15\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-16\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003em\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e接下来 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-17\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-18\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003en\u003c/script\u003e 行，每行一个长度为 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-19\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-20\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003em\u003c/script\u003e 的字符串，字符串中仅包含 * 和 . 两种字符。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e一个整数，表示在模 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-21\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-22\"\u003e998244353\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003e998244353\u003c/script\u003e 意义下的答案。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制和约定",
+      "content": "\u003cp\u003e对于所有数据，保证 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-23\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-24\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-25\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-26\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-27\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-28\"\u003e6\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-29\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-30\"\u003e2\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-31\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-32\"\u003em\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-33\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-34\"\u003e100\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003e1 \\leq n \\leq 6, 2 \\leq m \\leq 100\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e本题使用捆绑测试。每个子任务有若干个测试点，分为 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-35\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-36\"\u003e5\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003e5\u003c/script\u003e 个子任务，你只有通过一个子任务的所有测试点才能得到这个子任务的分数。\u003c/p\u003e\u003cp\u003e为方便表示，设 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-37\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-38\"\u003ec\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-39\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-40\"\u003et\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003ecnt\u003c/script\u003e 为输入中 * 的数量， \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-41\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-42\"\u003es\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-13\"\u003es\u003c/script\u003e 为由 * 组成的最大连通块(四连通)的大小。\u003c/p\u003e\u003ctable class=\"table table-bordered table-text-center table-vertical-middle\"\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003e子任务\u003c/th\u003e\u003cth\u003e分值\u003c/th\u003e\u003cth\u003e限制\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e10\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-43\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-44\"\u003ec\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-45\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-46\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-47\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-48\"\u003e6\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-14\"\u003ecnt \\leq 6\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e2\u003c/td\u003e\u003ctd\u003e20\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-49\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-50\"\u003ec\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-51\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-52\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-53\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-54\"\u003e20\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-15\"\u003ecnt \\leq 20\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e3\u003c/td\u003e\u003ctd\u003e20\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-55\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-56\"\u003es\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-57\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-58\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-16\"\u003es \\leq 1\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e4\u003c/td\u003e\u003ctd\u003e20\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-59\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-60\"\u003es\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-61\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-62\"\u003e16\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-17\"\u003es \\leq 16\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e5\u003c/td\u003e\u003ctd\u003e30\u003c/td\u003e\u003ctd\u003e无特殊限制\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e\u003ccode\u003e1 3\n***\u003c/code\u003e\u003c/pre\u003e",
+      "output": "\u003cpre\u003e\u003ccode\u003e3\u003c/code\u003e\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    },
+    {
+      "title": "样例二",
+      "input": "\u003cpre\u003e\u003ccode\u003e3 3\n..*\n*.*\n.*.\u003c/code\u003e\u003c/pre\u003e",
+      "output": "\u003cpre\u003e\u003ccode\u003e404051295\u003c/code\u003e\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    }
+  ],
+  "tags": [
+    "UOJ",
+    "集训队作业2018"
+  ],
+  "rules": {
+    "runtime": "1000000000",
+    "memory": "536870912",
+    "stack": "536870912",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:47:13.470278335+08:00",
+    "updated": "2021-04-09T21:47:13.470278335+08:00",
+    "checked": "2021-04-09T21:47:13.470278335+08:00"
+  },
+  "misc": ""
+}

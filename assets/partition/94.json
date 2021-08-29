@@ -1,0 +1,69 @@
+{
+  "id": "94",
+  "title": "胡策的统计",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e在 OI 界，有一位无人不知无人不晓，OI 水平前无古人后无来者的胡策，江湖人称一眼秒题胡大爷！\u003c/p\u003e\u003cp\u003e今天胡策在研究无向图的连通性。对于一个无向图定义它的连通值为该图连通块数的阶乘。\u003c/p\u003e\u003cp\u003e为了研究连通值的性质，胡策随手画了一个 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003en\u003c/script\u003e 个结点的简单无向图 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-4\"\u003eG\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003eG\u003c/script\u003e，结点分别编号为 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-6\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-7\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-8\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e…\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-9\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-10\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003e1, \\dots, n\u003c/script\u003e，他想统计出 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-11\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-12\"\u003eG\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003eG\u003c/script\u003e 的所有生成子图的连通值之和。\u003c/p\u003e\u003cp\u003e胡策当然会做啦！但是他想考考你。你只用输出结果对 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-13\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-14\"\u003e998244353\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003e998244353\u003c/script\u003e （\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-15\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-16\"\u003e7\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-17\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e×\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-18\"\u003e17\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-19\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e×\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-20\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-21\" style=\"margin-right: 0.05em;\"\u003e2\u003c/span\u003e\u003cspan class=\"MJXp-mrow MJXp-script\" id=\"MJXp-Span-22\" style=\"vertical-align: 0.5em;\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-23\"\u003e23\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-24\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e+\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-25\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003e7 \\times 17 \\times 2^{23} + 1\u003c/script\u003e，一个质数） 取模后的结果。\u003c/p\u003e\u003cp\u003e简单无向图即无重边无自环的无向图。生成子图即原图中删去若干条边（可以是 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-26\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-27\"\u003e0\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003e0\u003c/script\u003e 条）后形成的图。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e第一行两个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-28\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-29\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-30\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-31\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003en, m\u003c/script\u003e，表示 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-32\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-33\"\u003eG\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003eG\u003c/script\u003e 的结点数和边数。保证 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-34\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-35\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-36\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≥\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-37\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-38\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-39\" style=\"margin-left: 0.278em; margin-right: 0.278em;\"\u003e，\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-40\"\u003em\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-41\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≥\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-42\"\u003e0\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003en \\geq 1，m \\geq 0\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e接下来 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-43\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-44\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003em\u003c/script\u003e 行，每行两个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-45\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-46\"\u003ev\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-47\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-48\"\u003eu\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003ev, u\u003c/script\u003e，表示 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-49\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-50\"\u003ev\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-13\"\u003ev\u003c/script\u003e 号结点和 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-51\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-52\"\u003eu\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-14\"\u003eu\u003c/script\u003e 号结点之间有一条无向边。保证 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-53\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-54\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-55\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-56\"\u003ev\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-57\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-58\"\u003eu\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-59\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-60\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-15\"\u003e1 \\leq v, u \\leq n\u003c/script\u003e，保证没有重边和自环。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e一行，一个整数表示答案。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cdiv class=\"table-responsive\"\u003e\n\u003ctable class=\"table table-bordered table-text-center table-vertical-middle\"\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003e测试点编号\u003c/th\u003e\n\u003cth\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-61\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-62\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-16\"\u003en\u003c/script\u003e\u003c/th\u003e\n\u003cth\u003e特殊限制\u003c/th\u003e\n\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-63\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-64\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-65\"\u003e6\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-17\"\u003e\\leq 6\u003c/script\u003e\u003c/td\u003e\u003ctd rowspan=\"6\"\u003e无\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e2\u003c/td\u003e\u003ctd rowspan=\"2\"\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-66\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-67\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-68\"\u003e10\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-18\"\u003e\\leq 10\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e3\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e4\u003c/td\u003e\u003ctd rowspan=\"3\"\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-69\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-70\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-71\"\u003e17\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-19\"\u003e\\leq 17\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e5\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e6\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e7\u003c/td\u003e\u003ctd rowspan=\"4\"\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-72\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-73\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-74\"\u003e20\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-20\"\u003e\\leq 20\u003c/script\u003e\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-75\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-76\"\u003eG\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-21\"\u003eG\u003c/script\u003e 为完全图\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e8\u003c/td\u003e\u003ctd rowspan=\"3\"\u003e无\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e9\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e10\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e",
+      "misc": ""
+    },
+    {
+      "title": "来源",
+      "content": "\u003cp\u003e中国国家集训队互测2015 - By 吕凯风\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=94\"\u003e样例数据下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e6 13\n1 2\n1 3\n2 3\n1 4\n4 2\n3 4\n5 2\n3 5\n5 4\n6 2\n6 3\n6 4\n6 5\n\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003e16974\n\n\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    },
+    {
+      "title": "样例二",
+      "input": "",
+      "output": "",
+      "explanation": "",
+      "misc": "\u003cp\u003e见样例数据下载。\u003c/p\u003e"
+    }
+  ],
+  "tags": [
+    "UOJ",
+    "集训队互测2015"
+  ],
+  "rules": {
+    "runtime": "3000000000",
+    "memory": "268435456",
+    "stack": "268435456",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:31:22.604589581+08:00",
+    "updated": "2021-04-09T21:31:22.604589581+08:00",
+    "checked": "2021-04-09T21:31:22.604589581+08:00"
+  },
+  "misc": ""
+}

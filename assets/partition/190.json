@@ -1,0 +1,59 @@
+{
+  "id": "190",
+  "title": "消失的源代码",
+  "type": "answer_submission",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e翻开古老的试题，发现题面已模糊不清。\u003c/p\u003e\u003cp\u003e选手们的源代码也已经消失。\u003c/p\u003e\u003cp\u003e只剩下编译后的可执行程序。\u003c/p\u003e\u003cp\u003e你找到了输入文件，希望重新生成输出文件。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "题目描述",
+      "content": "\u003cp\u003e给出可执行程序lost，和输入文件input*.txt，对于每一个输入文件，求出它对应的输出文件。\u003c/p\u003e\u003cp\u003elost的输入和输出是标准输入输出。可以在命令行中对输入输出进行重定向。\u003c/p\u003e\u003cp\u003e还下发了一个可执行程序lost2，它从input.txt中读入，输出到output.txt。除此以外lost2和lost完全相同。可以根据习惯选用lost 或lost2。\u003c/p\u003e\u003cp\u003elost并不完美，当数据规模较大时，它或许不能成功运行，此时会直接输出“invalid input.”。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e第一行一个整数，表示数据类型。lost会根据数据类型，完成相应的计算。例如数据类型为0时，lost会计算a+b problem。 （input0.txt、output0.txt）。\u003c/p\u003e\u003cp\u003e第二行一个整数，表示数据组数。\u003c/p\u003e\u003cp\u003e接下来是每一组数据。输入格式由数据类型确定。\u003c/p\u003e\u003cp\u003e当数据规模不超过第一组数据时，保证lost能够正常运行。\u003c/p\u003e\u003cp\u003e只有数据组数不超过一组时，保证lost的输出正确。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e对于每组数据，输出一行。\u003c/p\u003e\u003cp\u003e评测时，按行计分。每一行1分。如果某个测试点只求出了某些行的答案，其他行也应随便输出一些内容，包括但不限于QAQ，但不能输出空行。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=190\"\u003e输入数据下载\u003c/a\u003e\u003c/p\u003e\u003cp\u003e\u003ca href=\"//pan.baidu.com/s/1pLOSq9t\"\u003e百度网盘下载\u003c/a\u003e (密码：rc1j)\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "IOI赛制",
+      "content": "\u003cp\u003e本题在考试时排行榜上显示的成绩即为最终评测结果。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "如果你不能运行exe文件",
+      "content": "\u003cp\u003e下载压缩包，解压后将lost、lost2复制到文件夹内运行。\n\u003ca href=\"//pan.baidu.com/s/1bphXM0Z\"\u003e下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [],
+  "tags": [
+    "UOJ",
+    "集训队互测2016"
+  ],
+  "rules": {
+    "runtime": "0",
+    "memory": "0",
+    "stack": "0",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:34:15.425398714+08:00",
+    "updated": "2021-04-09T21:34:15.425398714+08:00",
+    "checked": "2021-04-09T21:34:15.425398714+08:00"
+  },
+  "misc": ""
+}

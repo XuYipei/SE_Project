@@ -1,0 +1,99 @@
+{
+  "id": "180",
+  "title": "实验室外的攻防战",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e时针指向午夜十二点，约定的日子——2月28日终于到来了。随着一声枪响，伏特跳蚤国王率领着他的跳蚤大军们包围了 picks 博士所在的实验室。\u003c/p\u003e\u003cp\u003e当然，picks 博士不会坐以待毙，他早就率领着他的猴子们在实验室外修筑了许多的坚固防御工事。\u003c/p\u003e\u003cp\u003e经过跳蚤侦察兵的勘察，跳蚤国王发现 picks 博士的防御工事有着 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003en\u003c/script\u003e 处薄弱点，于是他把他的跳蚤大军分成了 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-4\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003en\u003c/script\u003e 支小队，并打算让它们分别进攻每一个薄弱点。但是因为战场混乱，这 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-6\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003en\u003c/script\u003e 支小队的位置被打乱了，重新整队之后，跳蚤国王发现第 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-8\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003ei\u003c/script\u003e 个位置的小队编号为 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-9\"\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-10\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-11\" style=\"margin-right: 0.05em;\"\u003eA\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-12\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003eA_i\u003c/script\u003e（\u003cstrong\u003e显然 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-13\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-14\"\u003eA\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003eA\u003c/script\u003e 是一个排列\u003c/strong\u003e）。\u003c/p\u003e\u003cp\u003e经过计算，跳蚤国王发现，让第 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-15\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-16\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003ei\u003c/script\u003e 个位置的小队编号为 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-17\"\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-18\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-19\" style=\"margin-right: 0.05em;\"\u003eB\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-20\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003eB_i\u003c/script\u003e 时，他的军队可以发挥出最大的战斗力（\u003cstrong\u003e保证 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-21\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-22\"\u003eB\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003eB\u003c/script\u003e 也是一个排列\u003c/strong\u003e）。\u003c/p\u003e\u003cp\u003e跳蚤国王可以发出指令来改变小队们的排列顺序，每一次，他都会报出一个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-23\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-24\"\u003ei\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-25\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e(\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-26\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-27\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-28\"\u003ei\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-29\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e\u0026lt;\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-30\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-31\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003ei(1 \\leq i \u003c n)\u003c/script\u003e。\u003cstrong\u003e如果排在第 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-32\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-33\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003ei\u003c/script\u003e 个位置的小队编号大于第 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-34\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-35\"\u003ei\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-36\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e+\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-37\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003ei+1\u003c/script\u003e 个位置的小队，那么这两支小队会交换顺序，否则这一个命令将会被忽略\u003c/strong\u003e。\u003c/p\u003e\u003cp\u003e现在跳蚤国王希望他的军队能够发挥出最强大的战斗力，于是他想要知道是否存在一种指令序列，使得小队们可以按照排列 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-38\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-39\"\u003eB\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-13\"\u003eB\u003c/script\u003e 的方式排列。\u003c/p\u003e\u003cp\u003e但是因为小队数目实在是太多，跳蚤国王一时间也没有看出答案。于是他派跳蚤绑架来了你——这附近最著名的民间科学家来帮他计算这个问题的答案。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e输入数据第一行包含一个正整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-40\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-41\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-14\"\u003en\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e接下来两行每行 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-42\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-43\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-15\"\u003en\u003c/script\u003e 个正整数，分别描述排列 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-44\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-45\"\u003eA\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-16\"\u003eA\u003c/script\u003e 和排列 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-46\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-47\"\u003eB\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-17\"\u003eB\u003c/script\u003e。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e对于每组数据，如果存在这样的指令序列，输出“YES”，否则输出“NO”(\u003cstrong\u003e引号不输出，请注意大小写\u003c/strong\u003e)。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003ctable class=\"table table-bordered table-text-center table-vertical-middle\"\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003e子任务\u003c/th\u003e\u003cth\u003e分值\u003c/th\u003e\u003cth colspan=\"2\"\u003e限制与约定\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e24\u003c/td\u003e\u003ctd colspan=\"2\"\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-48\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-49\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-50\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-51\"\u003e8\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-18\"\u003en \\le 8\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e2\u003c/td\u003e\u003ctd\u003e32\u003c/td\u003e\u003ctd colspan=\"2\"\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-52\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-53\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-54\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-55\"\u003e1000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-19\"\u003en \\le 1000\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e3\u003c/td\u003e\u003ctd\u003e44\u003c/td\u003e\u003ctd colspan=\"2\"\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-56\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-57\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-58\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-59\"\u003e100000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-20\"\u003en \\le 100000\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003cp\u003e对于所有数据，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-60\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-61\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-62\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-63\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-64\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-65\"\u003e100000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-21\"\u003e1 \\le n \\le 100000\u003c/script\u003e，保证输入的\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-66\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-67\"\u003eA\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-22\"\u003eA\u003c/script\u003e和\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-68\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-69\"\u003eB\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-23\"\u003eB\u003c/script\u003e均为一个排列。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=180\"\u003e样例数据下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e3\n2 3 1\n2 1 3\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003eYES\n\u003c/pre\u003e",
+      "explanation": "\u003cp\u003e只要报出2，也就是交换第2个位置和第3个位置的小队即可。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "样例二",
+      "input": "\u003cpre\u003e3\n2 1 3\n3 1 2\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003eNO\n\u003c/pre\u003e",
+      "explanation": "\u003cp\u003e注意只有相邻的满足前一个数大于后一个数的情况下才可以交换。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "样例三",
+      "input": "\u003cpre\u003e5\n4 1 2 5 3\n1 2 4 3 5\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003eYES\n\u003c/pre\u003e",
+      "explanation": "\u003cp\u003e步骤如下(每次交换的两个数加粗表示)：\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e4 1\u003c/strong\u003e 2 5 3\u003c/p\u003e\u003cp\u003e1 \u003cstrong\u003e4 2\u003c/strong\u003e 5 3\u003c/p\u003e\u003cp\u003e1 2 4 \u003cstrong\u003e5 3\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e1 2 4 3 5\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "样例四",
+      "input": "\u003cpre\u003e5\n1 5 3 4 2\n1 2 4 3 5\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003eNO\n\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    },
+    {
+      "title": "样例五",
+      "input": "\u003cpre\u003e8\n8 2 7 4 5 3 6 1 \n2 8 5 7 4 3 6 1 \n\u003c/pre\u003e",
+      "output": "\u003cpre\u003eNO\n\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    },
+    {
+      "title": "样例六",
+      "input": "",
+      "output": "",
+      "explanation": "",
+      "misc": "\u003cp\u003e见样例数据下载。这组数据符合子任务 2 的限制与约定。\u003c/p\u003e"
+    },
+    {
+      "title": "样例七",
+      "input": "",
+      "output": "",
+      "explanation": "",
+      "misc": "\u003cp\u003e见样例数据下载。这组数据符合子任务 3 的限制与约定。\u003c/p\u003e"
+    }
+  ],
+  "tags": [
+    "UOJ",
+    "UR #12"
+  ],
+  "rules": {
+    "runtime": "1000000000",
+    "memory": "268435456",
+    "stack": "268435456",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:33:56.266196768+08:00",
+    "updated": "2021-04-09T21:33:56.266196768+08:00",
+    "checked": "2021-04-09T21:33:56.266196768+08:00"
+  },
+  "misc": ""
+}

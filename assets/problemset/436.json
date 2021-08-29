@@ -1,0 +1,57 @@
+{
+  "id": "436",
+  "title": "铺设道路",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e春春是一名道路工程师，负责铺设一条长度为 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003e n \u003c/script\u003e 的道路。\u003c/p\u003e\u003cp\u003e铺设道路的主要工作是填平下陷的地表。整段道路可以看作是 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-4\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003e n \u003c/script\u003e 块首尾相连的区域，一开始，第 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-6\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003e i \u003c/script\u003e 块区域下陷的深度为 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-8\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-9\" style=\"margin-right: 0.05em;\"\u003ed\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-10\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003e d_i \u003c/script\u003e。\u003c/p\u003e\u003cp\u003e春春每天可以选择一段连续区间 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-11\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-12\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e[\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-13\"\u003eL\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-14\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-15\"\u003eR\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-16\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e]\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003e [L, R] \u003c/script\u003e ，填充这段区间中的每块区域，让其下陷深度减少1。在选择区间时，需要保证，区间内的每块区域在填充前下陷深度均不为 0 。\u003c/p\u003e\u003cp\u003e春春希望你能帮他设计一种方案，可以在最短的时间内将整段道路的下陷深度都变为0。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e输入包含两行，第一行包含一个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-17\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-18\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003en\u003c/script\u003e，表示道路的长度。 第二行包含 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-19\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-20\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003en\u003c/script\u003e 个整数，相邻两数间用一个空格隔开，第 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-21\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-22\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003ei\u003c/script\u003e 个整数为 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-23\"\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-24\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-25\" style=\"margin-right: 0.05em;\"\u003ed\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-26\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003ed_i\u003c/script\u003e 。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e输出文件仅包含一个整数，即最少需要多少天才能完成任务。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cp\u003e对于30%的数据，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-27\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-28\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-29\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-30\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-31\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-32\"\u003e10\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003e1 \\le n \\le 10\u003c/script\u003e;\u003c/p\u003e\u003cp\u003e对于70%的数据，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-33\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-34\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-35\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-36\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-37\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-38\"\u003e1000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003e1 \\le n \\le 1000\u003c/script\u003e; \u003c/p\u003e\u003cp\u003e对于100%的数据，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-39\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-40\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-41\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-42\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-43\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-44\"\u003e100000\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-45\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-46\"\u003e0\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-47\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-48\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-49\" style=\"margin-right: 0.05em;\"\u003ed\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-50\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-51\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-52\"\u003e10000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003e1 \\le n \\le 100000,0 \\le d_i \\le 10000\u003c/script\u003e .\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=436\"\u003e样例数据下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e\u003ccode\u003e6\n4 3 2 5 3 5\u003c/code\u003e\u003c/pre\u003e",
+      "output": "\u003cpre\u003e\u003ccode\u003e9\u003c/code\u003e\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    }
+  ],
+  "tags": [
+    "UOJ",
+    "NOIP2018"
+  ],
+  "rules": {
+    "runtime": "0",
+    "memory": "0",
+    "stack": "0",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:47:41.065027718+08:00",
+    "updated": "2021-04-09T21:47:41.065027718+08:00",
+    "checked": "2021-04-09T21:47:41.065027718+08:00"
+  },
+  "misc": ""
+}

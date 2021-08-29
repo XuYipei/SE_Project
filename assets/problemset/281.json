@@ -1,0 +1,51 @@
+{
+  "id": "281",
+  "title": "sone3",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e给定一颗 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003en\u003c/script\u003e 个结点的树，每条边上有一个小写字母。\u003c/p\u003e\u003cp\u003e令 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-4\"\u003es\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-5\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-6\"\u003er\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-7\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e(\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-8\"\u003ex\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-9\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-10\"\u003ey\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-11\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003estr(x,y)\u003c/script\u003e 表示树上 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-12\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-13\"\u003ex\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003ex\u003c/script\u003e 到 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-14\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-15\"\u003ey\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003ey\u003c/script\u003e 的简单路径上的字母连成的字符串。\u003c/p\u003e\u003cp\u003e定义一个字符串 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-16\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-17\"\u003eT\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003eT\u003c/script\u003e 是优秀的，当且仅当 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-18\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-19\"\u003eT\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003eT\u003c/script\u003e 能表示成 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-20\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-21\"\u003eS\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-22\"\u003eS\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003eSS\u003c/script\u003e 的形式，其中 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-23\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-24\"\u003eS\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003eS\u003c/script\u003e 是一个任意非空字符串。\u003c/p\u003e\u003cp\u003e求树上有多少个\u003cstrong\u003e本质不同\u003c/strong\u003e的优秀字符串。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e输入第一行一个正整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-25\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-26\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003en\u003c/script\u003e，表示树的大小。\u003c/p\u003e\u003cp\u003e接下来 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-27\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-28\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-29\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e−\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-30\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003en-1\u003c/script\u003e 行，每行形如 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-31\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-32\"\u003ex\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-33\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-34\"\u003ey\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-35\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-36\"\u003ec\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003ex,y,c\u003c/script\u003e 表示有一条连接 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-37\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-38\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e(\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-39\"\u003ex\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-40\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-41\"\u003ey\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-42\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003e(x,y)\u003c/script\u003e 的边，上面的小写字母是 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-43\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-44\"\u003ec\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-13\"\u003ec\u003c/script\u003e。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e输出一个非负整数表示答案\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cp\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-45\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-46\"\u003e2\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-47\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-48\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-49\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-50\"\u003e5\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-51\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e×\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-52\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-53\" style=\"margin-right: 0.05em;\"\u003e10\u003c/span\u003e\u003cspan class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-54\" style=\"vertical-align: 0.5em;\"\u003e4\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-14\"\u003e2\\leq n\\leq 5 \\times 10^4\u003c/script\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e5\n1 2 a\n2 3 a\n3 4 b\n4 5 b\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003e2\n\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    }
+  ],
+  "tags": [
+    "UOJ"
+  ],
+  "rules": {
+    "runtime": "5000000000",
+    "memory": "536870912",
+    "stack": "536870912",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:41:28.921934823+08:00",
+    "updated": "2021-04-09T21:41:28.921934823+08:00",
+    "checked": "2021-04-09T21:41:28.921934823+08:00"
+  },
+  "misc": ""
+}

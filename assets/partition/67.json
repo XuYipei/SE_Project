@@ -1,0 +1,68 @@
+{
+  "id": "67",
+  "title": "新年的毒瘤",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e辞旧迎新之际，喜羊羊正在打理羊村的绿化带，然后他发现了一棵长着毒瘤的树。\u003c/p\u003e\u003cp\u003e这个长着毒瘤的树可以用 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003en\u003c/script\u003e 个结点 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-4\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003em\u003c/script\u003e 条无向边的无向图表示。这个图中有一些结点被称作是毒瘤结点，即\u003cstrong\u003e删掉这个结点\u003c/strong\u003e和与之相邻的边之后，这个图会变为一棵树。树也即无简单环的无向连通图。\u003c/p\u003e\u003cp\u003e现在给你这个无向图，喜羊羊请你帮他求出所有毒瘤结点。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e第一行两个正整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-6\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-7\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-8\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003en, m\u003c/script\u003e，表示有 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-9\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-10\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003en\u003c/script\u003e 个点 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-11\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-12\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003em\u003c/script\u003e 条边。保证 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-13\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-14\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-15\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≥\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-16\"\u003e2\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003en \\geq 2\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e接下来 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-17\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-18\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003em\u003c/script\u003e 行，每行两个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-19\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-20\"\u003ev\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-21\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-22\"\u003eu\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003ev, u\u003c/script\u003e，表示 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-23\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-24\"\u003ev\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003ev\u003c/script\u003e 和 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-25\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-26\"\u003eu\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003eu\u003c/script\u003e 之间有一条无向边。\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-27\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-28\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-29\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-30\"\u003ev\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-31\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-32\"\u003eu\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-33\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-34\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003e1 \\leq v, u \\leq n\u003c/script\u003e。保证没有重边和自环。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e第一行一个正整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-35\"\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-36\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-37\" style=\"margin-right: 0.05em;\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-38\" style=\"vertical-align: -0.4em;\"\u003es\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003en_s\u003c/script\u003e，表示这个图中有 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-39\"\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-40\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-41\" style=\"margin-right: 0.05em;\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-42\" style=\"vertical-align: -0.4em;\"\u003es\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-13\"\u003en_s\u003c/script\u003e 个结点是毒瘤。\u003c/p\u003e\u003cp\u003e接下来一行，共 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-43\"\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-44\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-45\" style=\"margin-right: 0.05em;\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-46\" style=\"vertical-align: -0.4em;\"\u003es\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-14\"\u003en_s\u003c/script\u003e 个整数，每个整数表示一个毒瘤结点的编号。\u003cstrong\u003e请按编号从小到大的顺序输出。\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e数据保证图中至少存在一个毒瘤结点。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cdiv class=\"table-responsive\"\u003e\n\u003ctable class=\"table table-bordered table-text-center table-vertical-middle\"\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003e测试点编号\u003c/th\u003e\n\u003cth\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-47\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-48\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-49\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-50\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-15\"\u003en, m\u003c/script\u003e\u003c/th\u003e\n\u003cth\u003e其它限制\u003c/th\u003e\n\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd rowspan=\"4\"\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-51\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-52\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-53\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-54\"\u003em\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-55\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-56\"\u003e1000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-16\"\u003en, m \\leq 1000\u003c/script\u003e\u003c/td\u003e\u003ctd rowspan=\"4\"\u003e无\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e2\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e3\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e4\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e5\u003c/td\u003e\u003ctd rowspan=\"6\"\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-57\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-58\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-59\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-60\"\u003em\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-61\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-62\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-63\" style=\"margin-right: 0.05em;\"\u003e10\u003c/span\u003e\u003cspan class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-64\" style=\"vertical-align: 0.5em;\"\u003e5\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-17\"\u003en, m \\leq 10^5\u003c/script\u003e\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-65\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-66\"\u003em\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-67\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-68\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-69\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e−\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-70\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-18\"\u003em = n - 1\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e6\u003c/td\u003e\u003ctd rowspan=\"2\"\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-71\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-72\"\u003em\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-73\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-74\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-19\"\u003em = n\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e7\u003c/td\u003e\n\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e8\u003c/td\u003e\u003ctd rowspan=\"3\"\u003e无\u003c/td\u003e\n\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e9\u003c/td\u003e\n\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e10\u003c/td\u003e\n\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e",
+      "misc": ""
+    },
+    {
+      "title": "来源",
+      "content": "\u003cp\u003eUOJ Goodbye Jiawu\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=67\"\u003e样例数据下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e6 6\n1 2\n1 3\n2 4\n2 5\n4 6\n5 6\n\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003e3\n4 5 6\n\n\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    },
+    {
+      "title": "样例二",
+      "input": "",
+      "output": "",
+      "explanation": "",
+      "misc": "\u003cp\u003e见样例数据下载。\u003c/p\u003e"
+    }
+  ],
+  "tags": [
+    "UOJ"
+  ],
+  "rules": {
+    "runtime": "1000000000",
+    "memory": "268435456",
+    "stack": "268435456",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:30:37.229556456+08:00",
+    "updated": "2021-04-09T21:30:37.229556456+08:00",
+    "checked": "2021-04-09T21:30:37.229556456+08:00"
+  },
+  "misc": ""
+}

@@ -1,0 +1,34 @@
+{
+  "id": "520",
+  "title": "图片解密",
+  "type": "answer_submission",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e众所周知，有些时候需要进行一些花样才能把一张图片发出去。\u003c/p\u003e\u003cp\u003e今天，蒜斜在网上冲浪的时候，突然发现了两个神秘的文件 \u003ccode\u003esmall.csv\u003c/code\u003e 和 \u003ccode\u003elarge.csv\u003c/code\u003e。通过浏览相关的信息，他发现这两个文件是由两张图片分别用两种不同的方式加密而来的，但是具体的加密方法已经遗失在了时间的长河之中。\u003c/p\u003e\u003cp\u003e因此，蒜斜希望你能帮他还原这两张图片，并告诉他这两张图片里蕴含的信息。两张图的信息都是只包含数字和大写字母的字符串。\u003c/p\u003e\u003ch4\u003eSmall Task\u003c/h4\u003e\u003cp\u003e提示：《大局观》。\u003c/p\u003e\u003cp\u003e提交文件：\u003ccode\u003epicture1.out\u003c/code\u003e。\u003c/p\u003e\u003ch4\u003eLarge Task\u003c/h4\u003e\u003cp\u003e提示：新加坡樟宜机场大厅的时钟墙。\u003c/p\u003e\u003cp\u003e提交文件：\u003ccode\u003epicture2.out\u003c/code\u003e。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=520\"\u003e加密后的文件下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [],
+  "tags": [
+    "UOJ",
+    "美团杯2020"
+  ],
+  "rules": {
+    "runtime": "0",
+    "memory": "0",
+    "stack": "0",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:54:45.262087821+08:00",
+    "updated": "2021-04-09T21:54:45.262087821+08:00",
+    "checked": "2021-04-09T21:54:45.262087821+08:00"
+  },
+  "misc": ""
+}

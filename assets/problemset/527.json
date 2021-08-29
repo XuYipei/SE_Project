@@ -1,0 +1,44 @@
+{
+  "id": "527",
+  "title": "未来程序·改二",
+  "type": "answer_submission",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e加入算协以后，蒜斜发现周围的小伙伴都有一项特殊的技能，那就是：算的比谁都快！\n有时候一个程序用电脑跑需要好几天，但是算协的小伙伴几秒钟就能手算出来。\u003c/p\u003e\u003cp\u003e下面是两个算协同学平时拿来练手的程序，你的任务是上传它们的运行结果 —— 当然你可以用电脑试一试。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "Small Task",
+      "content": "\u003cp\u003e你需要提交下发程序中的 \u003ccode\u003esmall.cpp\u003c/code\u003e 的输出。\u003c/p\u003e\u003cp\u003e输出格式：一行一个整数，表示 \u003ccode\u003esmall.cpp\u003c/code\u003e 的输出。\u003c/p\u003e\u003cp\u003e提交文件：\u003ccode\u003efuture1.out\u003c/code\u003e\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "Large Task",
+      "content": "\u003cp\u003e你需要提交下发程序中的 \u003ccode\u003elarge.cpp\u003c/code\u003e 的输出。\u003c/p\u003e\u003cp\u003e输出格式：一行一个整数，表示 \u003ccode\u003elarge.cpp\u003c/code\u003e 的输出。\u003c/p\u003e\u003cp\u003e提交文件：\u003ccode\u003efuture2.out\u003c/code\u003e\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=527\"\u003e下发程序下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [],
+  "tags": [
+    "UOJ",
+    "美团杯2020"
+  ],
+  "rules": {
+    "runtime": "0",
+    "memory": "0",
+    "stack": "0",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:54:56.656597761+08:00",
+    "updated": "2021-04-09T21:54:56.656597761+08:00",
+    "checked": "2021-04-09T21:54:56.656597761+08:00"
+  },
+  "misc": ""
+}

@@ -1,0 +1,57 @@
+{
+  "id": "519",
+  "title": "查查查乐乐",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e“查查查乐乐”是一段古老神秘的咒语，只有被选中的魔法师才有资格使用这一段咒语并享用它所带来的力量；而如果这段咒语出现在了不具资格的魔法师的口中，这个魔法师将会遭到咒语的反噬并付出可怕的代价。\u003c/p\u003e\u003cp\u003e这个学期，镁团在一家魔法早教学校做兼职，他的任务是教小学生们魔法并帮助他们准备一年一度的全国魔法奥林匹克竞赛 (NOMP)。今天，镁团在整理图书的时候，突然发现一本课外教材中包含了 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003et\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003et\u003c/script\u003e 段只由查和乐组成的咒语。让小学生们阅读这些咒语是非常危险的：他们可能会在无意识中念出“查查查乐乐”。\u003c/p\u003e\u003cp\u003e因此，作为一名富有责任心的儿童教师，镁团打算修改这些咒语，从而最大程度地杜绝这方面的隐患。镁团认为一段由查和乐组成的咒语是危险的当且仅当在删去咒语中的若干个字（也可以不删）后，剩下的咒语可能变成查查查乐乐。举例来说，“查查查乐乐”，“查查乐查乐乐” 就是危险的，而 “乐乐查查查”，“乐查乐乐查乐查查”就不是危险的。\u003c/p\u003e\u003cp\u003e对于每一段咒语，镁团都可以选择若干个位置并对这些位置进行修改：他可以把“查”变成“乐”，也可以把“乐”变成“查”。为了最大限度地保留教学效果，镁团希望使用尽可能少的修改来消除所有的危险性：对于每一段咒语，镁团都希望你帮他计算一下最少的修改次数。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e输入第一行是一个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-4\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-5\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e(\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-6\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-7\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-8\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-9\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-10\"\u003e1000\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-11\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003et(1 \\leq t \\leq 1000)\u003c/script\u003e，表示咒语的数量。\u003c/p\u003e\u003cp\u003e对于每组数据，输入包含一行一个只包含字符 \u003ccode\u003ex\u003c/code\u003e 和 \u003ccode\u003el\u003c/code\u003e 的字符串 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-12\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-13\"\u003es\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-14\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e(\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-15\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-16\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-17\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-18\" style=\"margin-left: 0.167em; margin-right: 0.167em;\"\u003e|\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-19\"\u003es\u003c/span\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-20\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-21\" style=\"margin-left: 0.167em; margin-right: 0.167em;\"\u003e|\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-22\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-23\"\u003e100\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-24\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003es (1 \\leq |s| \\leq 100)\u003c/script\u003e，描述了一段咒语。其中 \u003ccode\u003ex\u003c/code\u003e 表示“查”，\u003ccode\u003el\u003c/code\u003e 表示 “乐”。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e对于每段咒语，输出一行一个整数表示最少的修改次数。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cp\u003e\u003cstrong\u003eSmall Task\u003c/strong\u003e: \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-35\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-36\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-37\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-38\"\u003e10\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003en \\leq 10\u003c/script\u003e\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eLarge Task\u003c/strong\u003e: \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-39\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-40\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-41\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-42\"\u003e100\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003en \\leq 100\u003c/script\u003e。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=519\"\u003e样例数据下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e3\nxxxll\nxxlxllllxl\nxxxxxlllll\n\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003e1\n1\n3\n\n\u003c/pre\u003e",
+      "explanation": "\u003cp\u003e对于三段咒语，我们分别给出一种让修改次数最小的方案：\u003c/p\u003e\u003col\u003e\u003cli\u003e\u003ccode\u003exxlll\u003c/code\u003e，修改了第 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-25\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-26\"\u003e3\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003e3\u003c/script\u003e 个字。\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003exxllllllxl\u003c/code\u003e，修改了第 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-27\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-28\"\u003e4\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003e4\u003c/script\u003e 个字。\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003exxllllllll\u003c/code\u003e， 修改了第 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-29\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-30\"\u003e3\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-31\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-32\"\u003e4\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-33\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-34\"\u003e5\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003e3,4,5\u003c/script\u003e 个字。\u003c/li\u003e\n\u003c/ol\u003e",
+      "misc": ""
+    }
+  ],
+  "tags": [
+    "UOJ",
+    "美团杯2020"
+  ],
+  "rules": {
+    "runtime": "2000000000",
+    "memory": "536870912",
+    "stack": "536870912",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:54:43.610457415+08:00",
+    "updated": "2021-04-09T21:54:43.610457415+08:00",
+    "checked": "2021-04-09T21:54:43.610457415+08:00"
+  },
+  "misc": ""
+}

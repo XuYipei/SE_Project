@@ -1,0 +1,66 @@
+{
+  "id": "208",
+  "title": "UOIP十合一",
+  "type": "answer_submission",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e2045年，由羊芳斐、牛芳斐、马芳斐、欧阳芳斐四名选手组成的中国国家队在IOI2045中以7分钟的罚时之差惜败给俄罗斯国家队。尽管如此，中国队仍然顺利进入前两名，获得了UOIP（Universal Olympiad in Informatics in Planets）的参赛资格，显然，该比赛将会在UOJ（Universal Online Judge）上举行。\u003c/p\u003e\u003cp\u003e为了训练，他们找到了算法竞赛界的最强选手共价大爷，虽然已经四十多岁，但是仍然宝刀未老，为了训练他们，共价大爷想到了一个很高明的方法——出一道UOIP十合一，一题能顶十题做。\u003c/p\u003e\u003cp\u003e你——黄瓜条是这年CTSC的第五名。实际上，由于数十年前某一名高二选手的失误，之前每一年的第五名都是高二选手，且在后一年，这名选手进入国家队并将这一年的另一个高二选手挤到第五名，然后这个被挤出去的选手接下来一年也进入国家队并成功挤下了另一名高二选手，依次类推，就这样延续了数十代。正所谓冤冤相报何时了。然而，你是数十年来第一次出现的已经到了高三的第五名，因此你停止了每一年都有一名高二选手被挤出去的惨剧，正是因为你的这个卓越贡献，你通过交10亿宇宙币给宇宙计算机学会成功拿到了以E类名额参加UOIP的资格。为了训练，你也弄到了这个UOIP十合一。\u003c/p\u003e\u003cp\u003e显然，这个题是一个提交答案题，题意很简单，\u003cstrong\u003e给你一张 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003en\u003c/script\u003e 个点 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-4\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003em\u003c/script\u003e 条边的有向图，请问有多少种方法选择边的子集（可以不选或者全选），使得不存在一个环使得该环上所有边都在这个子集中，一个环就是一条由至少一条边组成的从一个点出发回到这个点的路径。答案对 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-6\"\u003e1000000007\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003e1000000007\u003c/script\u003e 取模。\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e为了珍惜这次去UOIP的机会，你决定把这个题目解决。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e所以输入数据 uoip1.in~uoip10.in 见数据下载。\u003c/p\u003e\u003cp\u003e第一行两个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-8\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-9\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-10\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003en,m\u003c/script\u003e，表示图的点数和边数。\u003c/p\u003e\u003cp\u003e接下来 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-11\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-12\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003em\u003c/script\u003e 行，每行两个正整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-13\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-14\"\u003ex\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-15\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-16\"\u003ey\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003ex,y\u003c/script\u003e，表示有一条从点 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-17\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-18\"\u003ex\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003ex\u003c/script\u003e 出发连向点 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-19\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-20\"\u003ey\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003ey\u003c/script\u003e 的有向弧。注意可能存在从某个点出发连向自己的有向弧，且两个点之间可能存在多条同一个方向的有向弧。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e针对给定的10个输入文件 uoip1.in~uoip10.in，你需要分别提交你的输出文件 uoip1.out~uoip10.out。\u003c/p\u003e\u003cp\u003e输出一行一个整数，表示满足条件的子集个数对 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-21\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-22\"\u003e1000000007\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003e1000000007\u003c/script\u003e 取模的值。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "如何检验你的输出",
+      "content": "\u003cp\u003e在目录下给出了10个检验文件 uoip1.check~uoip10.check，设正确答案（取模后）为 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-31\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-32\"\u003ex\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003ex\u003c/script\u003e，则相应的检验文件中存储了 \u003cstrong\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-33\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-34\"\u003ex\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-35\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e⊕\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-36\"\u003e597855228\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003ex \\oplus 597855228\u003c/script\u003e\u003c/strong\u003e 对 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-37\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-38\"\u003e181\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-13\"\u003e181\u003c/script\u003e 取模的值（\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-39\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-40\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e⊕\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-14\"\u003e\\oplus\u003c/script\u003e 表示二进制下的异或运算），可以用来检验你的答案是否正确。\u003c/p\u003e\u003cp\u003e例如样例数据1的答案是 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-41\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-42\"\u003e13\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-15\"\u003e13\u003c/script\u003e，所以相应的检验文件中存储的值应该是 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-43\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-44\"\u003e90\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-16\"\u003e90\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e注意，最终测试时，只有当你的答案和标准答案一致时才能得分。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "来源",
+      "content": "\u003cp\u003ematthew99\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "题解",
+      "content": "\u003cp\u003e\u003ca href=\"https://matthew99.blog.uoj.ac/blog/1773\"\u003ehttps://matthew99.blog.uoj.ac/blog/1773\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=208\"\u003e选手文件下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e3 5\n1 1\n1 2\n1 2\n2 3\n3 1\n\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003e13\n\n\u003c/pre\u003e",
+      "explanation": "\u003cp\u003e第一条边一旦被选择就形成了一个含有一条边的环，因此第一条边可以忽略不计，只考虑后4条边。\u003c/p\u003e\u003cp\u003e容易发现，选出的子集不符合条件当且仅当最后两条边均被选择，且第二条边和第三条边至少选择了一条，因此有3种方案不符合要求。\u003c/p\u003e\u003cp\u003e所以，答案是\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-23\"\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-24\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-25\" style=\"margin-right: 0.05em;\"\u003e2\u003c/span\u003e\u003cspan class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-26\" style=\"vertical-align: 0.5em;\"\u003e4\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-27\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e−\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-28\"\u003e3\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-29\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-30\"\u003e13\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003e2 ^ 4 - 3 = 13\u003c/script\u003e。\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "tags": [
+    "UOJ"
+  ],
+  "rules": {
+    "runtime": "0",
+    "memory": "0",
+    "stack": "0",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:34:46.512036777+08:00",
+    "updated": "2021-04-09T21:34:46.512036777+08:00",
+    "checked": "2021-04-09T21:34:46.512036777+08:00"
+  },
+  "misc": ""
+}

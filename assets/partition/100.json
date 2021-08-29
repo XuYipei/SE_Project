@@ -1,0 +1,34 @@
+{
+  "id": "100",
+  "title": "ydc的题面",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e曾经，有一个题面摆在 ydc 的面前没有珍惜，直到失去时才后悔莫及，\u003c/p\u003e\u003cp\u003e如果上天再给他一次机会，ydc 一定会牢牢的记住这个题面。\u003c/p\u003e\u003cp\u003e没办法，已经失去了，所以这道题只能让你帮 ydc 做了。\u003c/p\u003e\u003cp\u003e已知的信息只有，这道题是传统题，采用全文比较的方式，时间限制 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-2\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mtext MJXp-mono\" id=\"MJXp-Span-4\"\u003es\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-1-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003e1\\texttt{s}\u003c/script\u003e，空间限制 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-6\"\u003e256\u003c/span\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-mtext MJXp-mono\" id=\"MJXp-Span-8\"\u003eMB\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-2-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003e256\\texttt{MB}\u003c/script\u003e。\u003c/p\u003e\u003cp\u003eydc 还给你提供了这道题的所有数据。\u003c/p\u003e\u003cp\u003e数据下载: \u003ca href=\"https://pan.baidu.com/s/1kT8Al0r\"\u003ehttps://pan.baidu.com/s/1kT8Al0r\u003c/a\u003e 密码: cb5y\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e该题在比赛时显示的成绩就是最终成绩。\u003c/strong\u003e\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "来源",
+      "content": "\u003cp\u003e中国国家集训队互测2015 - By 于纪平\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [],
+  "tags": [
+    "UOJ",
+    "集训队互测2015"
+  ],
+  "rules": {
+    "runtime": "0",
+    "memory": "0",
+    "stack": "0",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:31:32.53731478+08:00",
+    "updated": "2021-04-09T21:31:32.53731478+08:00",
+    "checked": "2021-04-09T21:31:32.53731478+08:00"
+  },
+  "misc": ""
+}

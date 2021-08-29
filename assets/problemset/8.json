@@ -1,0 +1,38 @@
+{
+  "id": "8",
+  "title": "Quine",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e写一个程序，使其能输出自己的源代码。\u003c/p\u003e\u003cp\u003e代码中必须至少包含\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-2\"\u003e10\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003e10\u003c/script\u003e个可见字符。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e没有输入文件。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e你的源代码。\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [],
+  "tags": [
+    "UOJ"
+  ],
+  "rules": {
+    "runtime": "1000000000",
+    "memory": "268435456",
+    "stack": "268435456",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:28:57.48877395+08:00",
+    "updated": "2021-04-09T21:28:57.48877395+08:00",
+    "checked": "2021-04-09T21:28:57.48877395+08:00"
+  },
+  "misc": ""
+}

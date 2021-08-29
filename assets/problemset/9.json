@@ -1,0 +1,64 @@
+{
+  "id": "9",
+  "title": "vfk的数据",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003eUOJ上，由于一群人开心的在hack着，有的题的测试数据都有\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-2\"\u003e10000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003e10000\u003c/script\u003e组了！\u003c/p\u003e\u003cp\u003e为了处理这些数据，vfk决定把这道题所有输入数据都弄出来，每个数据给个编号，比如\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-4\"\u003e\u003cspan class=\"MJXp-mtext MJXp-mono\" id=\"MJXp-Span-5\"\u003euoj1.in\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003e\\texttt{uoj1.in}\u003c/script\u003e, \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-6\"\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-mtext MJXp-mono\" id=\"MJXp-Span-8\"\u003euoj2.in\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003e\\texttt{uoj2.in}\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e这些编号是随机的，可以不连续，比如三组数据分别叫\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-9\"\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-10\"\u003e\u003cspan class=\"MJXp-mtext MJXp-mono\" id=\"MJXp-Span-11\"\u003euoj1.in\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003e\\texttt{uoj1.in}\u003c/script\u003e, \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-12\"\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-13\"\u003e\u003cspan class=\"MJXp-mtext MJXp-mono\" id=\"MJXp-Span-14\"\u003euoj100.in\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003e\\texttt{uoj100.in}\u003c/script\u003e, \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-15\"\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-16\"\u003e\u003cspan class=\"MJXp-mtext MJXp-mono\" id=\"MJXp-Span-17\"\u003euoj2014.in\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003e\\texttt{uoj2014.in}\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e输入数据的文件名一定是：题目名 + 数据编号 + \"\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-18\"\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-19\"\u003e\u003cspan class=\"MJXp-mtext MJXp-mono\" id=\"MJXp-Span-20\"\u003e.in\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003e\\texttt{.in}\u003c/script\u003e\"。\u003c/p\u003e\u003cp\u003evfk要你把这些输入文件按\u003cstrong\u003e数据编号\u003c/strong\u003e进行排序，之后用在线仙人球嵌套动态网络路径剖分优化的分支定界贪心剪枝启发式迭代加深人工智能搜索决策算法解决问题。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e第一行一个正整数\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-21\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-22\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003en\u003c/script\u003e，表示输入文件的个数。\u003c/p\u003e\u003cp\u003e接下来\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-23\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-24\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003en\u003c/script\u003e个字符串表示每个输入文件的文件名，形如： 题目名 + 数据编号 + \"\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-25\"\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-26\"\u003e\u003cspan class=\"MJXp-mtext MJXp-mono\" id=\"MJXp-Span-27\"\u003e.in\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003e\\texttt{.in}\u003c/script\u003e\"，保证：\u003c/p\u003e\u003col\u003e\u003cli\u003e数据编号一定是正整数且不包含前导零。\u003c/li\u003e\n\u003cli\u003e数据编号一定互不相同。\u003c/li\u003e\n\u003cli\u003e题目名仅包含大小写字母和下划线。\u003c/li\u003e\n\u003cli\u003e所有输入文件的题目名完全一致。\u003c/li\u003e\n\u003cli\u003e特别的，如果是像\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-28\"\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-29\"\u003e\u003cspan class=\"MJXp-mtext MJXp-mono\" id=\"MJXp-Span-30\"\u003e1.in\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003e\\texttt{1.in}\u003c/script\u003e, \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-31\"\u003e\u003cspan class=\"MJXp-mrow\" id=\"MJXp-Span-32\"\u003e\u003cspan class=\"MJXp-mtext MJXp-mono\" id=\"MJXp-Span-33\"\u003e2.in\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003e\\texttt{2.in}\u003c/script\u003e这种，我们认为题目名为空，也是允许的\u003c/li\u003e\n\u003c/ol\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e共\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-34\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-35\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-13\"\u003en\u003c/script\u003e行，每行一个字符串，表示排序的结果。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cdiv class=\"table-responsive\"\u003e\n\u003ctable class=\"table table-bordered table-text-center table-vertical-middle\"\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003e测试点编号\u003c/th\u003e\n\u003cth\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-36\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-37\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-14\"\u003en\u003c/script\u003e的规模\u003c/th\u003e\n\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e1~5\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-38\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-39\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-40\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-41\"\u003e100\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-15\"\u003en \\le 100\u003c/script\u003e\u003c/td\u003e\n\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e6~10\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-42\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-43\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-44\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-45\"\u003e10000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-16\"\u003en \\le 10000\u003c/script\u003e\u003c/td\u003e\n\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e\u003cp\u003e保证每个字符串的长度小于等于\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-46\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-47\"\u003e100\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-17\"\u003e100\u003c/script\u003e。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=9\"\u003e样例数据下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e8\ndajiahaowoshiyangli9.in\ndajiahaowoshiyangli5.in\ndajiahaowoshiyangli2.in\ndajiahaowoshiyangli1.in\ndajiahaowoshiyangli3.in\ndajiahaowoshiyangli7.in\ndajiahaowoshiyangli6.in\ndajiahaowoshiyangli8.in\n\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003edajiahaowoshiyangli1.in\ndajiahaowoshiyangli2.in\ndajiahaowoshiyangli3.in\ndajiahaowoshiyangli5.in\ndajiahaowoshiyangli6.in\ndajiahaowoshiyangli7.in\ndajiahaowoshiyangli8.in\ndajiahaowoshiyangli9.in\n\n\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    },
+    {
+      "title": "样例二",
+      "input": "",
+      "output": "",
+      "explanation": "",
+      "misc": "\u003cp\u003e见样例数据下载。\u003c/p\u003e"
+    }
+  ],
+  "tags": [
+    "UOJ",
+    "UTR #1"
+  ],
+  "rules": {
+    "runtime": "1000000000",
+    "memory": "268435456",
+    "stack": "268435456",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:28:58.979116394+08:00",
+    "updated": "2021-04-09T21:28:58.979116394+08:00",
+    "checked": "2021-04-09T21:28:58.979116394+08:00"
+  },
+  "misc": ""
+}

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option go_package = "/rcmdsys";
+
+package rcmdsys;
+
+service Rcmdsys {
+    rpc Upd(Record) returns (Status) {}
+    rpc Query(UId) returns (ProbAry) {}
+}
+
+message Record {
+    string userId = 1;
+    string probId = 2;
+    double score = 3;
+}
+message Status {
+    string status = 1;
+}
+
+message UId {
+    string id = 1;
+}
+message ProbAry {
+    repeated string id = 1;
+}

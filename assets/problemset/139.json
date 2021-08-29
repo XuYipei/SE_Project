@@ -1,0 +1,71 @@
+{
+  "id": "139",
+  "title": "被删除的黑白树",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e很久很久以前，有一棵树加入了 UOJ 群。\u003c/p\u003e\u003cp\u003e这天，在它讨论“一棵树应该怎么旋转”的时候一不小心被删除了，变成了被删除的树。\u003c/p\u003e\u003cp\u003e突然间，它突然发现它失去了颜色，变成了一棵纯白的树。这让它感觉很焦躁，于是它来拜托你给自己染上一些颜色。\u003c/p\u003e\u003cp\u003e我们可以把它描述为一棵 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003en\u003c/script\u003e 个节点的有根树（默认树的根为 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-4\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003e1\u003c/script\u003e 号节点），所有非根的度数为 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-6\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003e1\u003c/script\u003e 的节点被称为叶子节点。最开始所有的节点都是白色的。\u003c/p\u003e\u003cp\u003e现在你需要选出一些节点并把这些节点染成黑色的。为了迎合树的审美，你的染色方案必须要满足所有叶子节点到根路径上的黑色节点个数相同。\u003c/p\u003e\u003cp\u003e你发现黑色节点个数越多，树就会越高兴，所以你想要知道在所有合法的染色方案中，黑色节点总个数最多是多少。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e第一行一个正整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-8\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003en\u003c/script\u003e 表示树的节点个数。\u003c/p\u003e\u003cp\u003e接下来的 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-9\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-10\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-11\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e−\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-12\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003en-1\u003c/script\u003e 行，每行是两个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-13\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-14\"\u003eu\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-15\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-16\"\u003ev\u003c/span\u003e\u003cspan class=\"MJXp-mtext\" id=\"MJXp-Span-17\"\u003e\u0026nbsp;\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-18\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e(\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-19\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-20\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-21\"\u003eu\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-22\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-23\"\u003ev\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-24\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-25\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-26\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-27\"\u003eu\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-28\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≠\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-29\"\u003ev\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-30\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e)\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003eu,v\\ (1 \\leq u,v \\leq n,u \\neq v)\u003c/script\u003e 表示树上的一条边。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e一个整数，表示在所有合法方案中黑色节点的最多数量。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cp\u003e由于一些原因，本题使用捆绑测试。每个子任务有若干个测试点，分为 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-43\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-44\"\u003e3\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003e3\u003c/script\u003e 个子任务，你只有通过一个子任务的所有测试点才能得到这个子任务的分数。\u003c/p\u003e\u003cdiv class=\"table-responsive\"\u003e\n\u003ctable class=\"table table-bordered table-text-center table-vertical-middle\"\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003e子任务\u003c/th\u003e\n\u003cth\u003e分值\u003c/th\u003e\n\u003cth\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-45\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-46\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003en\u003c/script\u003e 的规模\u003c/th\u003e\n\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e30\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-47\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-48\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-49\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-50\"\u003e20\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003en \\leq 20\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e2\u003c/td\u003e\u003ctd\u003e30\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-51\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-52\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-53\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-54\"\u003e1000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003en \\leq 1000\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e3\u003c/td\u003e\u003ctd\u003e40\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-55\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-56\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-57\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-58\"\u003e100000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003en \\leq 100000\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=139\"\u003e样例数据下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e7\n1 2\n1 3\n2 4\n2 5\n3 6\n3 7\n\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003e7\n\n\u003c/pre\u003e",
+      "explanation": "\u003cp\u003e所有节点都染黑是一个合法的方案。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "样例二",
+      "input": "\u003cpre\u003e6\n1 2\n2 3\n1 4\n4 5\n5 6\n\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003e5\n\n\u003c/pre\u003e",
+      "explanation": "\u003cp\u003e一个最优的染色方案是把集合 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-31\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-32\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e{\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-33\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-34\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-35\"\u003e2\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-36\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-37\"\u003e3\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-38\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-39\"\u003e4\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-40\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-41\"\u003e5\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-42\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e}\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003e\\{1,2,3,4,5\\}\u003c/script\u003e 染黑。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "样例三",
+      "input": "",
+      "output": "",
+      "explanation": "",
+      "misc": "\u003cp\u003e见样例数据下载\u003c/p\u003e"
+    }
+  ],
+  "tags": [
+    "UOJ",
+    "UER #4"
+  ],
+  "rules": {
+    "runtime": "1000000000",
+    "memory": "268435456",
+    "stack": "268435456",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:32:43.681856733+08:00",
+    "updated": "2021-04-09T21:32:43.681856733+08:00",
+    "checked": "2021-04-09T21:32:43.681856733+08:00"
+  },
+  "misc": ""
+}

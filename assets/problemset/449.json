@@ -1,0 +1,57 @@
+{
+  "id": "449",
+  "title": "喂鸽子",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e小Z是养鸽子的人。一天，小Z给鸽子们喂玉米吃。一共有n只鸽子，小Z每秒会等概率选择一只鸽子并给他一粒玉米。一只鸽子饱了当且仅当它吃了的玉米粒数量\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-2\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≥\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-3\"\u003ek\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003e\\ge k\u003c/script\u003e。\n小Z想要你告诉他，期望多少秒之后所有的鸽子都饱了。\u003c/p\u003e\u003cp\u003e假设答案的最简分数形式为\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-4\"\u003e\u003cspan class=\"MJXp-mfrac\" id=\"MJXp-Span-5\" style=\"vertical-align: 0.25em;\"\u003e\u003cspan class=\"MJXp-box MJXp-script\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-6\"\u003ea\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-box\" style=\"margin-top: -0.9em;\"\u003e\u003cspan class=\"MJXp-denom\"\u003e\u003cspan\u003e\u003cspan class=\"MJXp-rule\" style=\"height: 1em; border-top: none; border-bottom: 1px solid; margin: 0.1em 0px;\"\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan\u003e\u003cspan class=\"MJXp-box MJXp-script\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-7\"\u003eb\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003e\\frac{a}{b}\u003c/script\u003e，你需要求出\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-8\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-9\"\u003ew\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003ew\u003c/script\u003e，满足\u003cspan class=\"MathJax_Preview\"\u003ea \\equiv b \\cdot w \\pmod{998244353} \\; (0 \\le w \u0026lt; 998244353)\u003c/span\u003e\u003cscript type=\"math/tex\"\u003ea \\equiv b \\cdot w \\pmod{998244353} \\; (0 \\le w \u003c 998244353)\u003c/script\u003e。\u003c/p\u003e\u003cp\u003eps:为了方便选手确认自己程序的正确性，下发文件中包含一个模拟器的源码，请选手自行编译。该模拟器会无限地重复模拟题目中描述的过程，并将每次模拟的秒数的平均值以\u003cstrong\u003e实数\u003c/strong\u003e的形式输出，该模拟器能够保证\u003cspan class=\"MathJax_Preview\"\u003e3 \\sim 4\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e3 \\sim 4\u003c/script\u003e位有效数字的精确度。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e一行两个正整数\u003cspan class=\"MathJax_Preview\"\u003en,k\u003c/span\u003e\u003cscript type=\"math/tex\"\u003en,k\u003c/script\u003e。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e一行一个数表示答案。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cp\u003e本题采用子任务的方式评测。\u003c/p\u003e\u003cp\u003e子任务一（\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-39\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-40\"\u003e4\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-41\"\u003ep\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-42\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-43\"\u003es\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003e4pts\u003c/script\u003e）：\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-44\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-45\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-46\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-47\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003en = 1\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e子任务二（\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-48\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-49\"\u003e11\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-50\"\u003ep\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-51\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-52\"\u003es\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003e11pts\u003c/script\u003e）：\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-53\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-54\"\u003ek\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-55\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-56\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003ek = 1\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e子任务三（\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-57\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-58\"\u003e19\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-59\"\u003ep\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-60\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-61\"\u003es\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003e19pts\u003c/script\u003e）：\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-62\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-63\"\u003ek\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-64\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-65\"\u003e2\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003ek = 2\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e子任务四（\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-66\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-67\"\u003e46\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-68\"\u003ep\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-69\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-70\"\u003es\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-13\"\u003e46pts\u003c/script\u003e）：\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-71\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-72\"\u003ek\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-73\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-74\"\u003e50\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-14\"\u003ek \\le 50\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e子任务五（\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-75\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-76\"\u003e20\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-77\"\u003ep\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-78\"\u003et\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-79\"\u003es\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-15\"\u003e20pts\u003c/script\u003e）：无特殊限制。\u003c/p\u003e\u003cp\u003e对于所有的数据，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-80\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-81\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-82\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-83\"\u003e50\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-16\"\u003en \\le 50\u003c/script\u003e，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-84\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-85\"\u003ek\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-86\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-87\"\u003e1000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-17\"\u003ek \\le 1000\u003c/script\u003e。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=449\"\u003e样例数据及模拟器下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e\u003ccode\u003e1 1\u003c/code\u003e\u003c/pre\u003e",
+      "output": "\u003cpre\u003e\u003ccode\u003e1\u003c/code\u003e\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    }
+  ],
+  "tags": [
+    "UOJ",
+    "集训队作业2018"
+  ],
+  "rules": {
+    "runtime": "1000000000",
+    "memory": "268435456",
+    "stack": "268435456",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:48:03.673239445+08:00",
+    "updated": "2021-04-09T21:48:03.673239445+08:00",
+    "checked": "2021-04-09T21:48:03.673239445+08:00"
+  },
+  "misc": ""
+}

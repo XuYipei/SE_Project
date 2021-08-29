@@ -1,0 +1,67 @@
+{
+  "id": "531",
+  "title": "最长公共子序列",
+  "type": "interactive",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e蒜斜和镁团在玩一个叫做“你问你猜”的游戏（可怜去哪了？）。规则如下：\u003c/p\u003e\u003cp\u003e镁团手中有\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003en\u003c/script\u003e个数，且恰好是 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-4\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-5\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e−\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-6\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003e1-n\u003c/script\u003e 的排列。\n每次询问，蒜斜需要给出一个长度不超过 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-8\"\u003e100\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003e100\u003c/script\u003e，且每个元素都在 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-9\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-10\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-11\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e−\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-12\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003e1-n\u003c/script\u003e 之间的数列（\u003cstrong\u003e不需要是排列\u003c/strong\u003e）；之后镁团会告诉蒜斜这两个数列的最长公共子序列长度。\n蒜斜需要在\u003cstrong\u003e不超过\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-13\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-14\"\u003e650\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003e650\u003c/script\u003e次询问\u003c/strong\u003e内猜出镁团手中的排列。\u003c/p\u003e\u003cp\u003e这对于蒜斜来说实在太困难了，因此他找到了玉树临风文质彬彬英俊潇洒神采奕奕温文尔雅风度翩翩的你，你能帮助他吗？\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "任务",
+      "content": "\u003cp\u003e你需要编写一个函数 \u003ccode\u003efind_permutation\u003c/code\u003e，以确定镁团手中的排列是什么。\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003ccode\u003efind_permutation(n, res)\u003c/code\u003e\u003cul\u003e\u003cli\u003e\u003ccode\u003en\u003c/code\u003e: 镁团手中排列的长度。\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eres\u003c/code\u003e：返回数组，你需要把你确定的排列存储到 \u003ccode\u003eres\u003c/code\u003e 中。\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003c/ul\u003e\u003cp\u003e你可以调用函数 \u003ccode\u003eget_lcs\u003c/code\u003e 以帮助你确定镁团手中的排列。我们会根据你调用这个函数的\u003cstrong\u003e次数\u003c/strong\u003e评分。\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003ccode\u003eget_lcs(len, A)\u003c/code\u003e 接受整数 \u003ccode\u003elen\u003c/code\u003e 和一个长度为 \u003ccode\u003elen\u003c/code\u003e 的数组 \u003ccode\u003eA\u003c/code\u003e，并会返回数组 \u003ccode\u003eA\u003c/code\u003e 与目标排列的最长公共子序列长度。\u003c/li\u003e\n\u003c/ul\u003e\u003cp\u003e在一组测试数据中，\u003ccode\u003efind_permutation\u003c/code\u003e 只会被调用一次。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "实现细节",
+      "content": "\u003cp\u003e本题只支持 C++。\u003c/p\u003e\u003cp\u003e你只能提交一个源文件实现如上所述的 \u003ccode\u003efind_permutation\u003c/code\u003e 函数，并且遵循下面的命名和接口。\u003c/p\u003e\u003ch4\u003eC++\u003c/h4\u003e\u003cp\u003e你需要包含头文件 \u003ccode\u003elcs.h\u003c/code\u003e。\u003c/p\u003e\u003cpre class=\"sh_sourceCode\"\u003e\u003ccode class=\"sh_cpp\"\u003e\u003cspan class=\"sh_type\"\u003evoid\u003c/span\u003e \u003cspan class=\"sh_function\"\u003efind_permutation\u003c/span\u003e\u003cspan class=\"sh_symbol\"\u003e(\u003c/span\u003e\u003cspan class=\"sh_type\"\u003eint\u003c/span\u003e n\u003cspan class=\"sh_symbol\"\u003e,\u003c/span\u003e \u003cspan class=\"sh_type\"\u003eint\u003c/span\u003e res\u003cspan class=\"sh_symbol\"\u003e[]);\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003cp\u003e你需要把答案排列存储在 \u003ccode\u003eres[0]\u003c/code\u003e 至 \u003ccode\u003eres[n-1]\u003c/code\u003e 中。\u003c/p\u003e\u003cp\u003e函数 \u003ccode\u003eget_lcs\u003c/code\u003e 的接口信息如下。\u003c/p\u003e\u003cpre class=\"sh_sourceCode\"\u003e\u003ccode class=\"sh_cpp\"\u003e\u003cspan class=\"sh_type\"\u003eint\u003c/span\u003e \u003cspan class=\"sh_function\"\u003eget_lcs\u003c/span\u003e\u003cspan class=\"sh_symbol\"\u003e(\u003c/span\u003e\u003cspan class=\"sh_type\"\u003eint\u003c/span\u003e len\u003cspan class=\"sh_symbol\"\u003e,\u003c/span\u003e \u003cspan class=\"sh_type\"\u003eint\u003c/span\u003e A\u003cspan class=\"sh_symbol\"\u003e[]);\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003cp\u003e你需要把询问的数组存储在 \u003ccode\u003eA[0]\u003c/code\u003e 至 \u003ccode\u003eA[len-1]\u003c/code\u003e 中，数组 \u003ccode\u003eA\u003c/code\u003e 中的元素必须是区间 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-15\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-16\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e[\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-17\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-18\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-19\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-20\" style=\"margin-left: 0em; margin-right: 0em;\"\u003e]\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003e[1,n]\u003c/script\u003e 中的整数。请保证你的所有询问都满足这个要求，不然的话可能会出现包括但不限于 \u003ccode\u003eWrong Answer\u003c/code\u003e, \u003ccode\u003eDangerous Syscalls\u003c/code\u003e 的评测错误。\u003c/p\u003e\u003cp\u003e如果有不清楚的地方，见样例及测评库下载，\u003cstrong\u003e内附了样例程序\u003c/strong\u003e。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "评测方式",
+      "content": "\u003cp\u003e评测系统将读入如下格式的输入数据：\u003c/p\u003e\u003col\u003e\u003cli\u003e第 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-21\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-22\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003e1\u003c/script\u003e 行: \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-23\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-24\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003en\u003c/script\u003e，表示镁团手中的排列长度。\u003c/li\u003e\n\u003cli\u003e第 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-25\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-26\"\u003e2\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003e2\u003c/script\u003e 行: \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-27\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-28\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003en\u003c/script\u003e 个空格隔开的整数，表示镁团手中的排列。\u003c/li\u003e\n\u003c/ol\u003e\u003cp\u003e在 \u003ccode\u003efind_permutation\u003c/code\u003e 返回后，评测系统将输出你的答案以及 \u003ccode\u003eget_lcs\u003c/code\u003e 的调用次数。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "样例输入",
+      "content": "",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cp\u003e\u003ccode\u003efind_permutation\u003c/code\u003e 只能进行不超过 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-41\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-42\"\u003e650\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-13\"\u003e650\u003c/script\u003e 次询问。如果超过了这个询问数量，你的程序将无法得分。\u003c/p\u003e\u003cp\u003e本题严禁任何形式的攻击交互库的行为，一旦发现，将取消相关选手的参赛资格。\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eSmall Task\u003c/strong\u003e: \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-43\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-44\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-45\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-46\"\u003e30\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-14\"\u003en \\leq 30\u003c/script\u003e\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eLarge Task\u003c/strong\u003e: \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-47\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-48\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-49\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-50\"\u003e100\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-15\"\u003en \\leq 100\u003c/script\u003e\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=531\"\u003e样例交互库下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e5\n1 5 2 4 3\n\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003e1 5 2 4 3\n10\n\n\u003c/pre\u003e",
+      "explanation": "\u003cp\u003e样例输出的含义为 \u003ccode\u003efind_permuation\u003c/code\u003e 在 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-29\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-30\"\u003e10\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003e10\u003c/script\u003e 次询问之后，确定了镁团手中的排列为 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-31\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-32\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mtext\" id=\"MJXp-Span-33\"\u003e\u0026nbsp;\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-34\"\u003e5\u003c/span\u003e\u003cspan class=\"MJXp-mtext\" id=\"MJXp-Span-35\"\u003e\u0026nbsp;\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-36\"\u003e2\u003c/span\u003e\u003cspan class=\"MJXp-mtext\" id=\"MJXp-Span-37\"\u003e\u0026nbsp;\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-38\"\u003e4\u003c/span\u003e\u003cspan class=\"MJXp-mtext\" id=\"MJXp-Span-39\"\u003e\u0026nbsp;\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-40\"\u003e3\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003e1\\ 5\\ 2\\ 4\\ 3\u003c/script\u003e。\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "tags": [
+    "UOJ",
+    "美团杯2020"
+  ],
+  "rules": {
+    "runtime": "1000000000",
+    "memory": "268435456",
+    "stack": "268435456",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:55:03.814781386+08:00",
+    "updated": "2021-04-09T21:55:03.814781386+08:00",
+    "checked": "2021-04-09T21:55:03.814781386+08:00"
+  },
+  "misc": ""
+}

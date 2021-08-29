@@ -1,0 +1,66 @@
+{
+  "id": "540",
+  "title": "组合数问题",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e众所周知，小葱同学擅长计算，尤其擅长计算组合数。小葱现在希望你计算\u003c/p\u003e\u003cp\u003e\u003cspan class=\"MathJax_Preview\"\u003e\n\\left(\\sum_{k=0}^n f(k) \\times x^k \\times \\binom n k\\right) \\bmod p\n\u003c/span\u003e\u003cscript type=\"math/tex; mode=display\"\u003e\n\\left(\\sum_{k=0}^n f(k) \\times x^k \\times \\binom n k\\right) \\bmod p\n\u003c/script\u003e\u003c/p\u003e\u003cp\u003e的值。其中 \u003cspan class=\"MathJax_Preview\"\u003en, x, p\u003c/span\u003e\u003cscript type=\"math/tex\"\u003en, x, p\u003c/script\u003e 为给定的整数，\u003cspan class=\"MathJax_Preview\"\u003ef(k)\u003c/span\u003e\u003cscript type=\"math/tex\"\u003ef(k)\u003c/script\u003e 为给定的一个 \u003cspan class=\"MathJax_Preview\"\u003em\u003c/span\u003e\u003cscript type=\"math/tex\"\u003em\u003c/script\u003e 次多项式 \u003cspan class=\"MathJax_Preview\"\u003ef(k) = a_0 + a_1 k + a_2 k^2 + \\cdots + a_m k^m\u003c/span\u003e\u003cscript type=\"math/tex\"\u003ef(k) = a_0 + a_1 k + a_2 k^2 + \\cdots + a_m k^m\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e\u003cspan class=\"MathJax_Preview\"\u003e\\binom n k\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e\\binom n k\u003c/script\u003e 为组合数，其值为 \u003cspan class=\"MathJax_Preview\"\u003e\\binom n k = \\frac{n!}{k!(n-k)!}\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e\\binom n k = \\frac{n!}{k!(n-k)!}\u003c/script\u003e。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e第一行四个非负整数 \u003cspan class=\"MathJax_Preview\"\u003en, x, p, m\u003c/span\u003e\u003cscript type=\"math/tex\"\u003en, x, p, m\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e第二行 \u003cspan class=\"MathJax_Preview\"\u003em + 1\u003c/span\u003e\u003cscript type=\"math/tex\"\u003em + 1\u003c/script\u003e 个整数，分别代表 \u003cspan class=\"MathJax_Preview\"\u003ea_0, a_1, \\cdots, a_m\u003c/span\u003e\u003cscript type=\"math/tex\"\u003ea_0, a_1, \\cdots, a_m\u003c/script\u003e。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e一行一个整数表示答案。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "数据范围",
+      "content": "\u003cp\u003e对于所有测试数据：\u003cspan class=\"MathJax_Preview\"\u003e1\\le n, x, p \\le 10^9, 0\\le a_i\\le 10^9, 0\\le m \\le \\min(n,1000)\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e1\\le n, x, p \\le 10^9, 0\\le a_i\\le 10^9, 0\\le m \\le \\min(n,1000)\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e每个测试点的具体限制见下表：\u003c/p\u003e\u003cdiv class=\"table-responsive\"\u003e\n    \u003ctable class=\"table table-bordered table-text-center table-vertical-middle\"\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003e测试点编号\u003c/th\u003e\u003cth\u003e\u003cspan class=\"MathJax_Preview\"\u003en \\le\u003c/span\u003e\u003cscript type=\"math/tex\"\u003en \\le\u003c/script\u003e\u003c/th\u003e\u003cth\u003e\u003cspan class=\"MathJax_Preview\"\u003em \\le\u003c/span\u003e\u003cscript type=\"math/tex\"\u003em \\le\u003c/script\u003e\u003c/th\u003e\u003cth\u003e其他特殊限制\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\"\u003e1 \\sim 3\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e1 \\sim 3\u003c/script\u003e\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\"\u003e1000\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e1000\u003c/script\u003e\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\"\u003e1000\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e1000\u003c/script\u003e\u003c/td\u003e\u003ctd\u003e无\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\"\u003e4 \\sim 6\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e4 \\sim 6\u003c/script\u003e\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\"\u003e10^5\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e10^5\u003c/script\u003e\u003c/td\u003e\u003ctd rowspan=\"2\"\u003e\u003cspan class=\"MathJax_Preview\"\u003e0\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e0\u003c/script\u003e\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\"\u003ep\u003c/span\u003e\u003cscript type=\"math/tex\"\u003ep\u003c/script\u003e是质数\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\"\u003e7 \\sim 8\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e7 \\sim 8\u003c/script\u003e\u003c/td\u003e\u003ctd rowspan=\"4\"\u003e\u003cspan class=\"MathJax_Preview\"\u003e10^9\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e10^9\u003c/script\u003e\u003c/td\u003e\u003ctd rowspan=\"2\"\u003e无\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\"\u003e9 \\sim 12\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e9 \\sim 12\u003c/script\u003e\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\"\u003e5\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e5\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\"\u003e13 \\sim 16\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e13 \\sim 16\u003c/script\u003e\u003c/td\u003e\u003ctd rowspan=\"2\"\u003e\u003cspan class=\"MathJax_Preview\"\u003e1000\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e1000\u003c/script\u003e\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\"\u003ex=1\u003c/span\u003e\u003cscript type=\"math/tex\"\u003ex=1\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\"\u003e17 \\sim 20\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e17 \\sim 20\u003c/script\u003e\u003c/td\u003e\u003ctd\u003e无\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e\u003cp\u003e\u003ca href=\"http://uoj.ac/download.php?type=problem\u0026amp;id=540\"\u003e附加数据下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例1",
+      "input": "\u003cpre\u003e\u003ccode class=\"sh_plain\"\u003e5 1 10007 2\n0 0 1\u003c/code\u003e\u003c/pre\u003e",
+      "output": "\u003cpre\u003e\u003ccode class=\"sh_plain\"\u003e240\u003c/code\u003e\u003c/pre\u003e",
+      "explanation": "\u003cp\u003e\u003cspan class=\"MathJax_Preview\"\u003ef(0) = 0，f(1) = 1，f(2) = 4，f(3) = 9，f(4) = 16，f(5) = 25\u003c/span\u003e\u003cscript type=\"math/tex\"\u003ef(0) = 0，f(1) = 1，f(2) = 4，f(3) = 9，f(4) = 16，f(5) = 25\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e\u003cspan class=\"MathJax_Preview\"\u003ex = 1\u003c/span\u003e\u003cscript type=\"math/tex\"\u003ex = 1\u003c/script\u003e，故 \u003cspan class=\"MathJax_Preview\"\u003ex^k\u003c/span\u003e\u003cscript type=\"math/tex\"\u003ex^k\u003c/script\u003e 恒为 \u003cspan class=\"MathJax_Preview\"\u003e1\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e1\u003c/script\u003e，乘积中的该项可以忽略。\u003c/p\u003e\u003cp\u003e\u003cspan class=\"MathJax_Preview\"\u003e\\binom 5 0 = 1, \\binom 5 1 = 5, \\binom 5 2 = 10, \\binom 5 3 = 10, \\binom 5 4 = 5, \\binom 5 5 = 1\u003c/span\u003e\u003cscript type=\"math/tex\"\u003e\\binom 5 0 = 1, \\binom 5 1 = 5, \\binom 5 2 = 10, \\binom 5 3 = 10, \\binom 5 4 = 5, \\binom 5 5 = 1\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e最终答案为：\u003c/p\u003e\u003cp\u003e\u003cspan class=\"MathJax_Preview\"\u003e\n\\sum_{k=0}^5 f(5) \\times \\binom 5 k = 0\\times 1 + 1\\times 5 + 4\\times 10 + 9\\times 10 + 16\\times 5 + 25\\times 1 = 240\n\u003c/span\u003e\u003cscript type=\"math/tex; mode=display\"\u003e\n\\sum_{k=0}^5 f(5) \\times \\binom 5 k = 0\\times 1 + 1\\times 5 + 4\\times 10 + 9\\times 10 + 16\\times 5 + 25\\times 1 = 240\n\u003c/script\u003e\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "样例2",
+      "input": "\u003cpre\u003e\u003ccode class=\"sh_plain\"\u003e996 233 998244353 5\n5 4 13 16 20 15\u003c/code\u003e\u003c/pre\u003e",
+      "output": "\u003cpre\u003e\u003ccode class=\"sh_plain\"\u003e869469289\u003c/code\u003e\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    },
+    {
+      "title": "样例3",
+      "input": "",
+      "output": "",
+      "explanation": "",
+      "misc": "\u003cp\u003e见附加文件中 \u003ccode\u003eex_problem3.in\u003c/code\u003e 与 \u003ccode\u003eex_problem3.ans\u003c/code\u003e。\u003c/p\u003e"
+    }
+  ],
+  "tags": [
+    "UOJ",
+    "统一省选2020"
+  ],
+  "rules": {
+    "runtime": "1000000000",
+    "memory": "536870912",
+    "stack": "536870912",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:55:18.583717571+08:00",
+    "updated": "2021-04-09T21:55:18.583717571+08:00",
+    "checked": "2021-04-09T21:55:18.583717571+08:00"
+  },
+  "misc": ""
+}

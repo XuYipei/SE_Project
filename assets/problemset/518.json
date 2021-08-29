@@ -1,0 +1,44 @@
+{
+  "id": "518",
+  "title": "系统测试",
+  "type": "answer_submission",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e正式赛中有一道下发可执行文件的题，因此本题是对选手系统的一个测试。\u003c/p\u003e\u003cp\u003e在页面最下方的下载链接中，你可以下载得到一个可执行文件。这个可执行文件在读入一个随机种子之后，会在相同目录下生成一个名为 \u003ccode\u003elarge.ans\u003c/code\u003e 的文件。把 \u003ccode\u003elarge.ans\u003c/code\u003e 文件改名为 \u003ccode\u003eos1.out\u003c/code\u003e 并上传后，即可获得本题的分数。 \u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载文件",
+      "content": "\u003cp\u003e在本题最下方的下载链接中，你可以下载到本题的可执行文件。请根据你电脑的系统挑选对应的可执行文件运行。\u003c/p\u003e\u003cp\u003e运行时，你需要输入我们下发给你们队伍的随机种子，来表明解题人身份。\u003cstrong\u003e如果你使用了别的随机种子，将可能会导致答案被判错。\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eUPD:\u003c/strong\u003e 比赛结束了，你可以使用随机种子 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-2\"\u003e99565380\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003e99565380\u003c/script\u003e 来做这个题。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "其他补充信息",
+      "content": "\u003cp\u003e在某些系统上下发的程序可能不具有可执行权限，你可能需要用 \u003ccode\u003echmod\u003c/code\u003e 指令来给出对应的权限。\u003c/p\u003e\u003cp\u003e如果你的电脑系统比较小众导致下发的所有可执行文件都无法正常运行，我们深表遗憾。在这种情况下，你可以使用阿里云等云服务器来获得可以运行这些可执行文件的环境。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=518\"\u003e文件下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [],
+  "tags": [
+    "UOJ",
+    "美团杯2020测试赛"
+  ],
+  "rules": {
+    "runtime": "0",
+    "memory": "0",
+    "stack": "0",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:54:42.018141244+08:00",
+    "updated": "2021-04-09T21:54:42.018141244+08:00",
+    "checked": "2021-04-09T21:54:42.018141244+08:00"
+  },
+  "misc": ""
+}

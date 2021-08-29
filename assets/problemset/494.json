@@ -1,0 +1,63 @@
+{
+  "id": "494",
+  "title": "DNA序列",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e2018年10月，MIT建立了最新的纳米科技研究中心MIT.nano。此后，不断有新的研究成果在此产生。\u003c/p\u003e\u003cp\u003e有一天，研究者发现了一种新的生物，这种生物的基因中含有\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003en\u003c/script\u003e条DNA序列，每一条都有一定的长度，科学家们可以将每条DNA序列切断，从而取出它的一个\u003cstrong\u003e非空前缀\u003c/strong\u003e。此后，他们可以将这些前缀按\u003cstrong\u003e任意顺序\u003c/strong\u003e连结起来形成一条完整的DNA序列，这样的DNA序列对治疗癌症有很大的作用。\u003c/p\u003e\u003cp\u003e每条DNA序列都仅包含大写字母“A”，“C”,“G”，“T”。\u003c/p\u003e\u003cp\u003e科学家们很快发现，DNA序列的字典序越小，则治疗癌症的效果越好，他们想知道给定\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-4\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003en\u003c/script\u003e条DNA序列，他们能获得的字典序最小的DNA序列是什么。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e第一行一个正整数\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-6\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003en\u003c/script\u003e，表示DNA序列的个数。\u003c/p\u003e\u003cp\u003e接下来\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-8\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003en\u003c/script\u003e行，每行一个非空字符串表示一条DNA，保证每个字符均为“A”，“C”,“G”，“T”中的一个。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e输出一行一个字符串，表示能获得的字典序最小的DNA序列。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cp\u003e设\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-11\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-12\"\u003em\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-6-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003em\u003c/script\u003e为所有字符串长度的最大值。\u003c/p\u003e\u003cp\u003e对于 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-13\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-14\"\u003e10\u003c/span\u003e\u003cspan class=\"MJXp-mi\" id=\"MJXp-Span-15\"\u003e%\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-7-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003e10\\%\u003c/script\u003e 的数据，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-16\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-17\"\u003em\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-18\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-19\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-8-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003em = 1\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e对于 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-20\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-21\"\u003e30\u003c/span\u003e\u003cspan class=\"MJXp-mi\" id=\"MJXp-Span-22\"\u003e%\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-9-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003e30\\%\u003c/script\u003e 的数据，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-23\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-24\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-25\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-26\"\u003em\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-27\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-28\"\u003e7\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-10-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003en, m \\le 7\u003c/script\u003e。  \u003c/p\u003e\u003cp\u003e对于另外 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-29\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-30\"\u003e30\u003c/span\u003e\u003cspan class=\"MJXp-mi\" id=\"MJXp-Span-31\"\u003e%\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-11-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003e30\\%\u003c/script\u003e 的数据，满足存在一种最优解是按照1到\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-32\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-33\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-12-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003en\u003c/script\u003e的顺序。\u003c/p\u003e\u003cp\u003e对于 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-34\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-35\"\u003e100\u003c/span\u003e\u003cspan class=\"MJXp-mi\" id=\"MJXp-Span-36\"\u003e%\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-13-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-13\"\u003e100\\%\u003c/script\u003e 的数据，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-37\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-38\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-39\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-40\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-41\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-42\"\u003em\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-43\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-44\"\u003e50\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-14-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-14\"\u003e1 \\le n, m \\le 50\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e时间限制2s，空间限制2G。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "题解",
+      "content": "\u003cp\u003e\u003ca href=\"https://matthew99.blog.uoj.ac/blog/5352\"\u003ehttps://matthew99.blog.uoj.ac/blog/5352\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e\u003ccode\u003e5\nAGT\nGTA\nATC\nGGGGG\nCAT\u003c/code\u003e\u003c/pre\u003e",
+      "output": "\u003cpre\u003e\u003ccode\u003eAACAGG\u003c/code\u003e\u003c/pre\u003e",
+      "explanation": "\u003cp\u003e五条DNA序列分别取前缀“A”，“G”，“A”，“G”，“CA”，按照“A+A+CA+G+G”的顺序拼接起来即可获得答案。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "样例二",
+      "input": "",
+      "output": "",
+      "explanation": "",
+      "misc": "\u003cp\u003e见\u003ca href=\"/download.php?type=problem\u0026amp;id=494\"\u003e样例数据下载\u003c/a\u003e，满足存在一种最优解是按照1到\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-9\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-10\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MathJax MathJax_Processing\" id=\"MathJax-Element-5-Frame\" tabindex=\"0\"\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003en\u003c/script\u003e的顺序。\u003c/p\u003e"
+    }
+  ],
+  "tags": [
+    "UOJ"
+  ],
+  "rules": {
+    "runtime": "0",
+    "memory": "0",
+    "stack": "0",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:49:25.23638075+08:00",
+    "updated": "2021-04-09T21:49:25.23638075+08:00",
+    "checked": "2021-04-09T21:49:25.23638075+08:00"
+  },
+  "misc": ""
+}

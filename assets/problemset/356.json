@@ -1,0 +1,78 @@
+{
+  "id": "356",
+  "title": "Port Facility",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e小M有两个本质不同的栈。\u003c/p\u003e\u003cp\u003e无聊的小M找来了\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003en\u003c/script\u003e个玩具。之后小M把这\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-4\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003en\u003c/script\u003e个玩具随机顺序加入某一个栈或把他们弹出。\u003c/p\u003e\u003cp\u003e现在小M告诉你每个玩具的入栈和出栈时间，现在她想考考小S，有多少种方案，把每个玩具分配给两个栈之一，并且存在一种满足小M告诉你的入栈和出栈时间的入栈序列。\u003c/p\u003e\u003cp\u003e可怜的小S当然不知道啦，所以他求助于你。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e第一行一个整数\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-6\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003en\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e接下来\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-8\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003en\u003c/script\u003e行，每行两个整数\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-9\"\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-10\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-11\" style=\"margin-right: 0.05em;\"\u003el\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-12\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-13\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-14\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-15\" style=\"margin-right: 0.05em;\"\u003er\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-16\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003el_i,r_i\u003c/script\u003e，表示第\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-17\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-18\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003ei\u003c/script\u003e个玩具的入栈和出栈时间。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e一行一个整数，表示答案\u003cstrong\u003e对\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-19\"\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-20\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-21\" style=\"margin-right: 0.05em;\"\u003e10\u003c/span\u003e\u003cspan class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-22\" style=\"vertical-align: 0.5em;\"\u003e9\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-23\" style=\"margin-left: 0.267em; margin-right: 0.267em;\"\u003e+\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-24\"\u003e7\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003e10^9+7\u003c/script\u003e取模的值\u003c/strong\u003e。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cp\u003e对于所有数据，\u003c/p\u003e\u003cp\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-25\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-26\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-27\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-28\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-29\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-30\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-31\" style=\"margin-right: 0.05em;\"\u003e10\u003c/span\u003e\u003cspan class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-32\" style=\"vertical-align: 0.5em;\"\u003e6\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-33\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-34\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-35\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-36\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-37\" style=\"margin-right: 0.05em;\"\u003el\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-38\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-39\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e\u0026lt;\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-40\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-41\" style=\"margin-right: 0.05em;\"\u003er\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-42\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-43\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-44\"\u003e2\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-45\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003e1\\le n\\le 10^6,1\\le l_i \u003c r_i \\le 2n\u003c/script\u003e，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-46\"\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-47\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-48\" style=\"margin-right: 0.05em;\"\u003el\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-49\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-50\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-51\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-52\" style=\"margin-right: 0.05em;\"\u003er\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-53\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003el_i,r_i\u003c/script\u003e互不相同。\u003c/p\u003e\u003cdiv class=\"table-responsive\"\u003e\n \u003ctable class=\"table table-bordered table-text-center table-vertical-middle\"\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003e子任务\u003c/th\u003e\n    \u003cth\u003e分值\u003c/th\u003e\n    \u003cth\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-54\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-55\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003en\u003c/script\u003e\u003c/th\u003e\n   \u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\n    \u003ctd\u003e10\u003c/td\u003e\n    \u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-56\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-57\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-58\"\u003e20\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003e\\le 20\u003c/script\u003e\u003c/td\u003e\n   \u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e2\u003c/td\u003e\n    \u003ctd\u003e12\u003c/td\u003e\n    \u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-59\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-60\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-61\"\u003e2000\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003e\\le 2000\u003c/script\u003e\u003c/td\u003e\n   \u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e3\u003c/td\u003e\n    \u003ctd\u003e56\u003c/td\u003e\n    \u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-62\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-63\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-64\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-65\" style=\"margin-right: 0.05em;\"\u003e10\u003c/span\u003e\u003cspan class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-66\" style=\"vertical-align: 0.5em;\"\u003e5\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-13\"\u003e\\le 10^5\u003c/script\u003e\u003c/td\u003e\n   \u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e4\u003c/td\u003e\n    \u003ctd\u003e22\u003c/td\u003e\n    \u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-67\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-68\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-69\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-70\" style=\"margin-right: 0.05em;\"\u003e10\u003c/span\u003e\u003cspan class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-71\" style=\"vertical-align: 0.5em;\"\u003e6\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-14\"\u003e\\le 10^6\u003c/script\u003e\u003c/td\u003e\n   \u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=356\"\u003e样例数据下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e4\n1 3\n2 5\n4 8\n6 7\n\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003e4\n\n\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    },
+    {
+      "title": "样例二",
+      "input": "\u003cpre\u003e3\n1 4\n2 5\n3 6\n\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003e0\n\n\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    },
+    {
+      "title": "样例三",
+      "input": "\u003cpre\u003e5\n1 4\n2 10\n6 9\n7 8\n3 5\n\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003e8\n\n\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    },
+    {
+      "title": "样例四",
+      "input": "\u003cpre\u003e8\n1 15\n2 5\n3 8\n4 6\n14 16\n7 9\n10 13\n11 12\n\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003e16\n\n\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    }
+  ],
+  "tags": [
+    "UOJ",
+    "JOI2017春季合宿"
+  ],
+  "rules": {
+    "runtime": "6000000000",
+    "memory": "1073741824",
+    "stack": "1073741824",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:44:02.864214988+08:00",
+    "updated": "2021-04-09T21:44:02.864214988+08:00",
+    "checked": "2021-04-09T21:44:02.864214988+08:00"
+  },
+  "misc": ""
+}

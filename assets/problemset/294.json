@@ -1,0 +1,64 @@
+{
+  "id": "294",
+  "title": "汉诺塔",
+  "type": "traditional",
+  "sections": [
+    {
+      "title": "",
+      "content": "\u003cp\u003e虽然九条可怜经常出题，但是她发现要一个人出一场比赛是在是太难了，于是她丢下了手头的出题工作开始玩小游戏。\u003c/p\u003e\u003cp\u003e有一个游戏是汉诺塔的改版。在这个游戏中，盘子的大小可以相同，但是保证了相同大小的盘子恰好有 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-1\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-2\"\u003eK\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-1\"\u003eK\u003c/script\u003e 个。初始状态下，所有盘子自底向上从大到小地放置在第一根柱子上，对于相同大小的盘子，我们自底向上给它们从 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-3\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-4\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-2\"\u003e1\u003c/script\u003e 到 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-5\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-6\"\u003eK\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-3\"\u003eK\u003c/script\u003e 标号。目标是把所有盘子都移动到第三根柱子上。\u003c/p\u003e\u003cp\u003e因为相同大小的盘子的上下顺序没有要求，不难发现合法的终止状态有很多，因此游戏里指定了一种终止状态。游戏的任务是最小化移动的步数。\u003c/p\u003e\u003cp\u003e可怜想了想觉得这个问题好像挺难的，于是她就把这个出到比赛里来给你做啦。\u003c/p\u003e\u003cp\u003e下面给出汉诺塔的具体规则：\u003c/p\u003e\u003cul\u003e\u003cli\u003e有三根柱子和若干块圆盘，初始状态下所有圆盘都在第一根柱子上。\u003c/li\u003e\n\u003cli\u003e每一时刻你可以把某一根柱子顶端的圆盘移动到另一根柱子的顶端，目标是把所有盘子都移动到第三根柱子上。\u003c/li\u003e\n\u003cli\u003e移动的过程中必须要保证较大的圆盘不会压在较小的圆盘上。(相同大小的圆盘没有顺序限制)。\u003c/li\u003e\n\u003c/ul\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输入格式",
+      "content": "\u003cp\u003e第一行输入一个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-7\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-8\"\u003eT\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-4\"\u003eT\u003c/script\u003e 表示数据组数。\u003c/p\u003e\u003cp\u003e每组数据第一行是两个整数 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-9\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-10\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-5\"\u003en\u003c/script\u003e 和 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-11\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-12\"\u003eK\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-6\"\u003eK\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e接下来 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-13\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-14\"\u003en\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-7\"\u003en\u003c/script\u003e 行按照盘子从大到小的顺序给出终止状态下同一大小的盘子的相对顺序（从左到右依次表示自底向上），例如 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-15\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-16\"\u003eK\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-17\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-18\"\u003e2\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-8\"\u003eK = 2\u003c/script\u003e 时，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-19\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-20\"\u003e2\u003c/span\u003e\u003cspan class=\"MJXp-mtext\" id=\"MJXp-Span-21\"\u003e\u0026nbsp;\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-22\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-9\"\u003e2~1\u003c/script\u003e 表示原来在上方的盘子到了下面，原来在下方的盘子到了上面。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "输出格式",
+      "content": "\u003cp\u003e对于每组数据输出一个整数表示最少步数。\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "限制与约定",
+      "content": "\u003cdiv class=\"table-responsive\"\u003e\n\u003ctable class=\"table table-bordered table-text-center table-vertical-middle\"\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003e测试点编号\u003c/th\u003e\n\u003cth\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-23\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-24\"\u003eK\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-10\"\u003eK\u003c/script\u003e\u003c/th\u003e\n\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003e1\u003c/td\u003e\u003ctd\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-25\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-26\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-27\"\u003e1\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-11\"\u003e=1\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e2\u003c/td\u003e\u003ctd rowspan=\"3\"\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-28\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-29\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-30\"\u003e2\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-12\"\u003e=2\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e3\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e4\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e5\u003c/td\u003e\u003ctd rowspan=\"3\"\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-31\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-32\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-33\"\u003e3\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-13\"\u003e=3\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e6\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e7\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e8\u003c/td\u003e\u003ctd rowspan=\"3\"\u003e\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-34\"\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-35\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e=\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-36\"\u003e4\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-14\"\u003e=4\u003c/script\u003e\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e9\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e10\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\u003c/div\u003e\u003cp\u003e对于 100% 的数据，保证 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-37\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-38\"\u003eT\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-39\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-40\"\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-41\" style=\"margin-right: 0.05em;\"\u003e10\u003c/span\u003e\u003cspan class=\"MJXp-mn MJXp-script\" id=\"MJXp-Span-42\" style=\"vertical-align: 0.5em;\"\u003e4\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-43\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-44\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-45\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-46\"\u003en\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-47\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-48\"\u003e50\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-49\" style=\"margin-left: 0em; margin-right: 0.222em;\"\u003e,\u003c/span\u003e\u003cspan class=\"MJXp-mn\" id=\"MJXp-Span-50\"\u003e1\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-51\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-msubsup\" id=\"MJXp-Span-52\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-53\" style=\"margin-right: 0.05em;\"\u003ex\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic MJXp-script\" id=\"MJXp-Span-54\" style=\"vertical-align: -0.4em;\"\u003ei\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"MJXp-mo\" id=\"MJXp-Span-55\" style=\"margin-left: 0.333em; margin-right: 0.333em;\"\u003e≤\u003c/span\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-56\"\u003eK\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-15\"\u003eT \\le 10^4, 1 \\le n \\le 50, 1 \\le x_i \\le K\u003c/script\u003e。\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e在实际的测试点中，\u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-57\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-58\"\u003eT\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-16\"\u003eT\u003c/script\u003e 组数据的 \u003cspan class=\"MathJax_Preview\" style=\"color: inherit;\"\u003e\u003cspan class=\"MJXp-math\" id=\"MJXp-Span-59\"\u003e\u003cspan class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-60\"\u003eK\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003cscript type=\"math/tex\" id=\"MathJax-Element-17\"\u003eK\u003c/script\u003e 都是相同的。\u003c/strong\u003e\u003c/p\u003e",
+      "misc": ""
+    },
+    {
+      "title": "下载",
+      "content": "\u003cp\u003e\u003ca href=\"/download.php?type=problem\u0026amp;id=294\"\u003e样例数据下载\u003c/a\u003e\u003c/p\u003e",
+      "misc": ""
+    }
+  ],
+  "samples": [
+    {
+      "title": "样例一",
+      "input": "\u003cpre\u003e3\n3 1\n1\n1\n1\n1 2\n2 1\n4 2\n2 1\n1 2\n1 2\n2 1\n\n\u003c/pre\u003e",
+      "output": "\u003cpre\u003e7\n2\n31\n\n\u003c/pre\u003e",
+      "explanation": "",
+      "misc": ""
+    },
+    {
+      "title": "样例二",
+      "input": "",
+      "output": "",
+      "explanation": "",
+      "misc": "\u003cp\u003e见样例数据下载。\u003c/p\u003e"
+    }
+  ],
+  "tags": [
+    "UOJ",
+    "ZJOI2017"
+  ],
+  "rules": {
+    "runtime": "3000000000",
+    "memory": "536870912",
+    "stack": "536870912",
+    "source": "51200"
+  },
+  "meta": {
+    "created": "2021-04-09T21:41:53.927214609+08:00",
+    "updated": "2021-04-09T21:41:53.927214609+08:00",
+    "checked": "2021-04-09T21:41:53.927214609+08:00"
+  },
+  "misc": ""
+}
